@@ -1,8 +1,15 @@
-Embedded Software Knowledgme Management System
-==============================================
+.. ESWKMS documentation master file, created by
+   sphinx-quickstart on Sun Sep  6 01:25:26 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to the ESWKMS
+=====================
+
+Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    build_patterns
    design_patterns
