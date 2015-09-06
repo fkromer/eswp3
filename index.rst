@@ -16,6 +16,7 @@ Contents:
    release_antipatterns
    design_patterns
    bibliography
+   about
 
 Indices and tables
 ==================
