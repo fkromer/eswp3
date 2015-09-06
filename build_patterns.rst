@@ -9,65 +9,50 @@ Categorization of build patterns
 
 Build patterns may be categorized according to the following scheme (Osherove 2015).
 
-- Separation of concerns
+* Separation of concerns
 
- - Build Script Injection
+ * Build Script Injection
+ * Fill In The Blanks
 
- - Fill In The Blanks
+* Productivity
 
-- Productivity
+ * Accumulative Builds
+ * Gated Commit
+ * Incremental Feedback Loops
+ * Pipeline Disintegration
+ * Shipping Skeleton
 
- - Accumulative Builds
+* Maintainability
 
- - Gated Commit
+ * Base Parameter
+ * Extract Script
+ * Fishbone Build Structure
+ * Location Agnostic Script
 
- - Incremental Feedback Loops
+* Team Collaboration
 
- - Pipeline Disintegration
+ * Dependency Stash
+ * Public API Hook
+ * Tipping Point
+ * Version by Snapshots Dependencies
 
- - Shipping Skeleton
+* Stakeholder
 
-- Maintainability
+ * Deploy by Proxy
+ * Parallel Fire-hose
 
- - Base Parameter
+* Branching
 
- - Extract Script
+* Scalability
 
- - Fishbone Build Structure
+ * Fan Out Agents
+ * Split to Parallel
 
- - Location Agnostic Script
+* Trustworthy
 
-- Team Collaboration
-
- - Dependency Stash
-
- - Public API Hook
-
- - Tipping Point
-
- - Version by Snapshots Dependencies
-
-- Stakeholder
-
- - Deploy by Proxy
-
- - Parallel Fire-hose
-
-- Branching
-
-- Scalability
-
- - Fan Out Agents
-
- - Split to Parallel
-
-- Trustworthy
-
- - Binary Result
-
- - Irrelevant Build
-
- - Big Ball of Mud
+ * Binary Result
+ * Irrelevant Build
+ * Big Ball of Mud
 
 All build patterns in alphabetic order
 ======================================
