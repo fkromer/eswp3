@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   human_relation_patterns
    build_patterns
    design_patterns
    bibliography
