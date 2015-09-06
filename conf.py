@@ -50,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'ESWKMS'
-copyright = '2015, Florian Kromer'
+copyright = '2015, <a href="https://github.com/fkromer">fkromer</a>'
 author = 'Florian Kromer'
 
 # The version info for the project you're documenting, acts as replacement for
