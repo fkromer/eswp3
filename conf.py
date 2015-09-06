@@ -51,7 +51,7 @@ master_doc = 'index'
 # General information about the project.
 project = 'ESWKMS'
 copyright = '2015, <a href="https://github.com/fkromer">fkromer</a>'
-author = 'Florian Kromer'
+author = '<a href="https://github.com/eswkms-org">ESWKMS community</a>'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -225,8 +225,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'ESWKMS.tex', 'ESWKMS Documentation',
-   'Florian Kromer', 'manual'),
+  (master_doc, 'ESWKMS.tex', 'Embedded Software Knowledge Management System (ESWKMS)',
+   'ESWKMS community', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
