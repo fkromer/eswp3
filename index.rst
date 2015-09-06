@@ -13,6 +13,7 @@ Contents:
 
    human_relation_patterns
    build_patterns
+   release_antipatterns
    design_patterns
    bibliography
 

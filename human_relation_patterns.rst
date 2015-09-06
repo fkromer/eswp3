@@ -10,6 +10,7 @@ This does not only concern people in management but also everyone in your compan
 
 
 Categorization of human relation patterns
+=========================================
 
 Human relations patterns may be categorized as follows (Carnegie 2010, page 50, 112, 200, 248):
 
