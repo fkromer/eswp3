@@ -13,6 +13,7 @@ Author(s)                     Title                                             
 ============================= ============================================================================================= ===================== ======= ====
 Carnegie, Dale                How to Win Friends & Influence People                                                         Simon and Schuster    20th    2010
 Humble, Jez and Farley, David Continous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation Addison-Wesley                2011
+Lott, Steven F.               Mastering Object Oriented Python                                                              Packt Publishing Ltd. 1st     2014
 Osherove, Roy 	              Beautiful Builds: Growing Readable, Maintainable Automated Build Processes                    Team Agile Publishing 1st 	  2015
 Tornhill, Adam                Patterns in C                                                                                 Leanpub               agile   2015
 ============================= ============================================================================================= ===================== ======= ====

@@ -135,12 +135,17 @@ Minimalistic thread scheduling for hardware with limited resources (memory).
 
 :Disadvantages: bad responsiveness to incoming events
 
-:Implementaion example: Gas flow application with 3 threads (updating the display, controlling a valve, measure gas flow) accessing the same data (configured gas flow, measured gas flow) of a data server (Douglass 2011, chapter 4.2.9).
+:Implementaion example: C - Gas flow application with 3 threads (updating the display, controlling a valve, measure gas flow) accessing the same data (configured gas flow, measured gas flow) of a data server (Douglass 2011, chapter 4.2.9).
 
 Dynamic Priority Pattern
 ------------------------
 
 Task scheduling by assignment and update of task priorities during runtime.
+
+Facade Pattern
+--------------
+
+:Implementaion example: Python - Access layer to a SQLite database for blog and related post objects (Lott 2014, chapter "Designing an access layer for SQLite").
 
 Factory Method Pattern
 ----------------------
@@ -203,6 +208,11 @@ Singleton Pattern
 -----------------
 
 Ensures that only one instance of a class may be created.
+
+State Pattern
+-------------
+
+:Implementation example: Python - Emulation of basic operation system process states and transitions using the module "state_machine" (Kasampalis 2015, chapter "Chapter 14. The State Pattern", subchapter "Implementation").
 
 Static Priority Pattern
 -----------------------
