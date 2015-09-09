@@ -79,6 +79,19 @@ Patterns may be categorized according to their intend of optimization and accord
   * Observer
   * Visitor
 
+Legend to the design pattern sections
+=====================================
+
+:Advantages: In comparison with related patterns (e.g.
+Cyclic Executive Pattern vs. Static Priority Pattern).
+
+:Disadvantages: In comparison with related patterns (e.g.
+Cyclic Executive Pattern vs. Static Priority Pattern).
+
+:Implementation examples: The implementation examples are not limited to the
+"embedded" domain. It is a good practice to transfer the examples to specific
+problems in other domains of software engineering.
+
 All design patterns in alphabetic order
 =======================================
 
@@ -140,7 +153,13 @@ Minimalistic thread scheduling for hardware with limited resources (memory).
 Dynamic Priority Pattern
 ------------------------
 
+:Advantages: urgency (Douglass 2002, p.170)
+
+:Disadvantages: criticality (Douglass 2002, p.170)
+
 Task scheduling by assignment and update of task priorities during runtime.
+
+:Implementaion example: C - Three threads (data acquisition, filtering, display) share the same two data sets (raw, processed) (Douglass 2002, chapter 5.10.8).
 
 Facade Pattern
 --------------
@@ -152,38 +171,101 @@ Factory Method Pattern
 
 Defines an interface for creating an instance of an object but lets the class which implements the interface decide which class to instantiate.
 
+:Implementaion example: Python - App which lets the user decide weather connect to a website over http or ftp to list the directories of the corresponding web server (Zlobin 2013, chapter "The Factory Method Implementation").
+
+:Implementaion example: Python - Creation of objects for handling the input data in XML format or in JSON format and parsing it correspondingly. (Kasampalis 2015, chapter "1. The Factory Pattern", subchapter "Factory Method", subsubchapter "Implementation").
+
 Guarded Call Pattern
 --------------------
-     
+
+:Advantages:
+   * better responsiveness (compared to Queueing Pattern)
+   * does not interfere with the execution of higher priority tasks that don’t need access to the resource (compared to Critical Region Pattern)
+
+:Disadvantages: if not combined with other patterns the naïve implementation/use can result in unbounded priority inversion
+
+:Implementaion example: C - The attitude and position sensors of an aircraft (data servers) are accessed by a attitude control, a data displayer and a position control (data clients) (Douglass 2011, chapter 4.5.8).
+
 Layer Pattern
 -------------
 
 Organizes the software components in a hierarchical manner based on their level of abstraction.
+
+:Variant "5-Layer Architecture":
+   A variant of the Layer Pattern with 5 components common for embedded and real-time systems (Douglass 2002, chapter 4.2) is separated into:
+
+* Application,
+* User Interface,
+* Communication,
+* Abstract OS,
+* Abstract HW.
+
+The communication is not uni-directional as usual for the "strict" Layer Pattern.
+
+:Model example: C - An ECG monitor is composed of the software components ECG, Alarm, Trend, Data Transport, User Interface (5-tier Pattern) whose communication is not unidirectional "from top to bottom" (Douglass 2002, chapter 4.1.8).
+
+:Model example: C - A ventilator consists of the Ventilator Application, the Graphical User Interface, Communication (CAN, Corba), the RTOS vxWorks and the ventilator hardware abstraction (Douglass 2002, chapter 4.2.8).
 
 Mediator Pattern
 ----------------
 
 Centralization of the coordination of other components.
 
+:Implementation example: C - Manager (mediator) for the coordination of the subcomponents (rotating joints, sliding joints, etc.) of a robot arm in C (Douglass 2011).
+
+:Implementation example: C++ - Management of the update of Dialog elements (button, list box, entry field) in a graphical user interface (Gamma et al. 1995, chapter „Mediator“).
+
 Model-View-Controller Pattern
 -----------------------------
 
 Separates the application (or part of it) into the parts model (data and logic), view (HMI) and controller (links the model and the view).
+
+:Implementation examples: Python - Web interface URL-shortening service implemented with the framework flask which does not support the MVC pattern out-of-the-box (Zlobin 2013, chapter "1. Model-View-Controller", subchapter "Implementation in Python").
 
 Multiple Event Receptor Pattern
 -------------------------------
 
 Handling of synchonous events from a single event server using an event receptor for each event (multiple event receptor finite state machine).
 
+:Implementation example: C - Tokenizer for floating point number strings implemented as synchronous state machine with events (digit, white space, dot, end of string) triggered by the client (Douglass 2011, chapter 5.4.8).
+
 Observer Pattern
 ----------------
 
 Notification of clients about the status of a data server.
 
+:Implementation example: C - Gas data (server) of a gas sensor is observed by a display, gas mixer and a safety monitor (clients) in C (Douglass 2011, chapter 3.5.8).
+
+:Implementation example: C++ - System time (server) is observed by a digital and an analog clock (clients) in C++ (Gamma et al. 1995, chapter "Observer").
+
 Ordered Locking Pattern
 -----------------------
 
 Prevention of resource-based deadlock by forcing ordered locking of resources.
+
+:Implementation strageties: This pattern is implemented with one type of resource ID assignment (dynamic or design-time) and one or both types of resource access (dyadic or monadic).
+
+Dynamic resource ID assignment means that IDs are dynamically assigned to resources during runtime.
+
+Design-time resource ID assignment means that IDs are assigned to resources during compile-time.
+
+Dyadic access means that the resource client does explicitly need to lock and unlock the resource.
+
+Monadic access means that the resource client does not need to unlock the resource (implicitly locked and unlocked). 
+
+:Advantages:
+
+* easy (resource ID assignment: dynamic)
+* difficult for big systems (resource ID assignment: design-time)
+* flexible (access: dyadic)
+
+:Disadvantages:
+
+* unsafe (resource ID assignment: dynamic)
+* safe (resource ID assignment: design-time)
+* unflexible (access: monadic)
+
+:Implementation example: C - The attitude, velocity and position sensors of an aircraft (data servers) are accessed by a kinematic and a route planing control (data clients) (Douglass 2011, chapter 4.9.8).
 
 Pipes and Filters Pattern
 -------------------------
@@ -193,11 +275,26 @@ Prototype Pattern
 
 Creation of an exact copy of an object.
 
+:Implementation example: Python - Creation of information about the second version of a book based on the first version information by using pythons deepcopy functionality copy.deepcopy() (Kasampalis 2015, chapter "3. The Prototype Pattern").
+
 Proxy Pattern
 -------------
 
 Standardization of component interface for better maintainability.
+
+:Variant "Hardware Proxy": In the driver layer or HAL the access on hardware is encapsulated in a component.
+
+:Variant "Remote Proxy": In distributed systems software may access neighbor systems as remote "device".
+
+:Variant "Security Proxy": In security applications it may be required to hold all component data within the application in encrypted status. The data representation/format may not be encapsulated within the proxy as usual then.
+
+:Implementation example: C - A motor (hardware) is accessed over an interface independent of the hardware-interface providing the control of speed and direction and monitoring the status (hardware proxy). The hardware is accessed per 16-bit wide memory-mapped interface (Douglass 2011, chapter 3.2.8).
+
+:Implementation example: C++ - An interface for graphical objects (proxy) may be used by the application (client) to access the implementation of a image class (Gamma et al. 1995, chapter „Proxy“).
+
 Round Robin Pattern
+-------------------
+
      
 Single Event Receptor Pattern
 -----------------------------
