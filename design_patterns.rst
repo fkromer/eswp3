@@ -88,9 +88,12 @@ Cyclic Executive Pattern vs. Static Priority Pattern).
 :Disadvantages: In comparison with related patterns (e.g.
 Cyclic Executive Pattern vs. Static Priority Pattern).
 
-:Implementation examples: The implementation examples are not limited to the
+:Implementation example: The implementation examples are not limited to the
 "embedded" domain. It is a good practice to transfer the examples to specific
 problems in other domains of software engineering.
+
+:Pattern dependences: If the pattern or a specific implementation variant
+requires the usage of another pattern.
 
 All design patterns in alphabetic order
 =======================================
@@ -295,16 +298,30 @@ Standardization of component interface for better maintainability.
 Round Robin Pattern
 -------------------
 
+:Implementation example: C - Two tasks (monitor, display) are scheduled with time-controlled preemption (Douglass 2002, chapter 5.8.8).
      
 Single Event Receptor Pattern
 -----------------------------
 
 Handling of asynchronous or synchonous events from a single event server using one event receptor for all events (single event receptor finite state machine).
 
+:Pattern dependences:
+
+* Asynchronous version -> Queueing Pattern
+* Synchronous version -> Guarded Call Pattern
+
+:Implementation examples: C - Tokenizer for strings holding floating point numbers implemented as asynchronous and as synchronous event handling state machine in C (Douglass 2011, chapter 5.3.8).
+
 Singleton Pattern
 -----------------
 
 Ensures that only one instance of a class may be created.
+
+:Variant "Borg singleton": Uses a shared state to ensure that successors of a singleton class are also singletons.
+
+:Implementation example: Python - Abstract but running example of a singleton. (Zlobin 2013, chapter "A classic singleton")
+
+:Implementation example: Python - Borg singleton implements a shared resource (to store images) and a set of URLs which are accessed by 2 threads which fetch images of the URLs and stores them (Zlobin 2013, chapter "2. Creating Only One Object with the Singleton Pattern", subchapter "Implementation in Python")
 
 State Pattern
 -------------
@@ -315,3 +332,19 @@ Static Priority Pattern
 -----------------------
 
 Task scheduling using priorities.
+
+:Advantages:
+
+* simplicity (Douglass 2002, p. 163)
+* stability in sense of predictability of failing tasks in an overload situation (Douglass 2002, p. 164)
+* optimality, you can’t do better with other scheduling strategies (Douglass 2002, p. 164)
+* scale-ability for large amounts of tasks (Douglass 2002, p. 163)
+* analyze-ability for schedule-ability e.g. with the standard rate monotonic analysis methods (Douglass 2011, p. 170)
+* responsiveness to urgent asynchronous events (Douglass 2002, p. 163)
+
+:Disadvantages: naive implementation with blocking resource sharing can lead to unbounded priority inversion (Douglass 2011, p. 170)
+
+:Model example: C - Three threads (data acquisition, filtering, display) share the same two data sets (raw, processed) (Douglass 2002, chapter 5.9.8).
+
+:Implementation example: C - The motor position sensing, the display of info and the motor control encapsulated in tasks of a RTOS (Douglass 2011, chapter 4.3.8).
+
