@@ -1,9 +1,11 @@
-# ESWKMS
+# ESWP³
 
 ## About
 
-The ESWKMS is an interactive [Knowledge Management System for Embedded Software](http://eswkms-orggithubio.readthedocs.org/en/latest/).
+The [ESWP³](http://eswp3.readthedocs.org/) is an interactive "Knowledge
+Reference Database for Embedded Software". It is structuring, summarizing
+and referenzing information.
 
 ## How to contribute
 
-Have a look into the [project wiki](https://github.com/eswkms-org/eswkms-org.github.io/wiki) for details about hot to contribute to the project.
+Have a look into the [project wiki](https://github.com/fkromer/eswp3/wiki) for details about hot to contribute to the project.
