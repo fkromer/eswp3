@@ -11,7 +11,6 @@ Bibliography
 ============================= ============================================================================================== ======================= ======= ====
 Author(s)                     Title                                                                                          Publisher               Edition Year
 ============================= ============================================================================================== ======================= ======= ====
-Mayer, Bertrand               Object-Oriented Software Construction                                                          Prentice Hall                   1988
 Buschmann, Frank et al.       Pattern-Oriented Software Architecture (Vol. 1): A System of Patterns                          John Wiley & Sons Ltd.  7th     2001
 Carnegie, Dale                How to Win Friends & Influence People                                                          Simon and Schuster      20th    2010
 Douglass, Bruce Powel         Real-Time Design Patterns: Robust Scalable Architecture for Real-Time Systems                  Elsevier                1th     2002
@@ -22,6 +21,8 @@ Greening, James W.            Test-Driven Development for Embedded C            
 Humble, Jez and Farley, David Continous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation  Addison-Wesley                  2011
 Kasampalis, Sakis             Mastering Python Design Patterns                                                               Packt Publishing Ltd.   1st     2015
 Lott, Steven F.               Mastering Object Oriented Python                                                               Packt Publishing Ltd.   1st     2014
+Mayer, Bertrand               Object-Oriented Software Construction                                                          Prentice Hall                   1988
+Meszaros, Gerard              xUnit Test Patterns : Refactoring Test Code                                                    Addison-Wesley          1st     2007
 Osherove, Roy 	              Beautiful Builds: Growing Readable, Maintainable Automated Build Processes                     Team Agile Publishing   1st     2015
 Schmidt, Douglas et al.       Pattern Oriented Software Architecture (Vol. 2): Patterns for Concurrent and Networked Objects John Wiley & Sons, Inc.         2000
 Tornhill, Adam                Patterns in C                                                                                  Leanpub                 agile   2015

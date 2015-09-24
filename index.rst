@@ -23,6 +23,7 @@ Contents:
    design_patterns
    idioms
    unit_test_patterns
+   unit_test_smells
    tool_evaluation_patterns
    bibliography
    about
