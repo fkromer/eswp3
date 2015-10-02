@@ -3,20 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-ESWP³ - Embedded Software Principles, Patterns and Procedures
+ESWP³ - Embedded Software Principles, Procedures and Patterns
 =============================================================
 
-Inspired by the idea of a "pattern system" this website collects references to patterns, principles and procedures in the context of embedded software engineering.
+This project is about summarizing, referencing, structuring and relating
+principles, procedures (as sequences of patterns in a pattern languages) and
+patterns in the context of embedded software engineering.
 
-"A pattern system for software architecture is a collection of patterns for software architecture, together with guidelines for their implementation, combination and practical use in software development." (Buschmann et al. 2001, chapter "5.1 What is a Pattern System?")
+As "(P)atterns are only meaningful as part of a Pattern Language(.)" (Bergin
+2013, pos. 74) this project tries also to "make" relations between different
+pattern languages and the higher-level principles "visible".
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   human_relation_patterns
    principles
+   pattern_extraction_procedures
+   human_relation_patterns
    build_patterns
    release_antipatterns
    requirement_patterns

@@ -11,6 +11,7 @@ Bibliography
 ============================= ============================================================================================== ======================= ======= ====
 Author(s)                     Title                                                                                          Publisher               Edition Year
 ============================= ============================================================================================== ======================= ======= ====
+Bergin, Joseph                Writing Patterns: software, organizational, pedagogical                                        Slant Flying Press      agile   2013
 Buschmann, Frank et al.       Pattern-Oriented Software Architecture (Vol. 1): A System of Patterns                          John Wiley & Sons Ltd.  7th     2001
 Carnegie, Dale                How to Win Friends & Influence People                                                          Simon and Schuster      20th    2010
 Douglass, Bruce Powel         Real-Time Design Patterns: Robust Scalable Architecture for Real-Time Systems                  Elsevier                1th     2002
@@ -26,6 +27,7 @@ Meszaros, Gerard              xUnit Test Patterns : Refactoring Test Code       
 Osherove, Roy 	              Beautiful Builds: Growing Readable, Maintainable Automated Build Processes                     Team Agile Publishing   1st     2015
 Schmidt, Douglas et al.       Pattern Oriented Software Architecture (Vol. 2): Patterns for Concurrent and Networked Objects John Wiley & Sons, Inc.         2000
 Tornhill, Adam                Patterns in C                                                                                  Leanpub                 agile   2015
+Withall, Stephen              Software Requirement Patterns                                                                  Microsoft Press                 2007
 Zlobin, Gennadiy              Learning Python Design Patterns                                                                Packt Publishing Ltd.   1st     2013
 ============================= ============================================================================================== ======================= ======= ====
 
