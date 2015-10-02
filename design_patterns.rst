@@ -221,6 +221,73 @@ Categorization related to the problem category specific to "(...) a number of su
  * Protected Single Channel
  * Dual Channel
 
+Categorization related to the problem category in the architectural
+abstraction layer of embedded software (Douglass 2002) may be applied as
+follows:
+
+* Subsystem and Component Architecture Patterns
+
+ * Layered Pattern
+ * Five-Layer Architecture Pattern
+ * Microkernel Architecture Pattern
+ * Channel Architecture Pattern
+ * Recursive Containment Pattern
+ * Hierarchical Control Pattern
+ * Virtual Machine Pattern
+ * Component-Based Architecture
+ * ROOM Pattern
+
+* Concurrency Patterns
+
+ * Concurrency Pattern
+ * Message Queuing Pattern
+ * Interrupt Pattern
+ * Guarded Call Pattern
+ * Rendezvous Pattern
+ * Cyclic Executive Pattern
+ * Round Robin Pattern
+ * Static Priority Pattern
+ * Dynamic Priority Pattern
+
+* Memory Patterns
+
+ * Memory Management Patterns
+ * Static Allocation Pattern
+ * Pool Allocation Pattern
+ * Fixed Sized Buffer Pattern
+ * Smart Pointer Pattern
+ * Garbage Collection Pattern
+ * Garbage Compactor Pattern
+
+* Resource Patterns
+
+ * Critical Section Pattern
+ * Priority Inheritance Pattern
+ * Highest Locker Pattern
+ * Priority Ceiling Pattern
+ * Simultaneous Locking Pattern
+ * Ordered Locking Pattern
+
+* Distribution Patterns
+
+ * Shared Memory Pattern
+ * Remote Method Call Pattern
+ * Observer Pattern
+ * Data Bus Pattern
+ * Proxy Pattern
+ * Broker Pattern
+
+* Safety and Reliability Patterns
+
+ * Protected Single Channel Pattern
+ * Homogeneous Redundancy Pattern
+ * Triple Modular Redundancy Pattern
+ * Heterogeneous Redundancy Pattern
+ * Monitor-Actuator Pattern
+ * Sanity Check Pattern
+ * Watchdog Pattern
+ * Safety Executive Pattern
+
 Pattern Selection Procedure
 ===========================
 
@@ -234,8 +301,8 @@ The literature states the following schema to choose an appropriate pattern (Bus
 * Select the variant
 * Select an alternative problem category
 
-Legend to the design pattern sections
-=====================================
+About the pattern meta-data
+===========================
 
 :Advantages: In comparison with related patterns (e.g. Cyclic Executive Pattern vs. Static Priority Pattern).
 
