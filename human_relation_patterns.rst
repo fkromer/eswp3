@@ -14,105 +14,93 @@ Categorization of human relation patterns
 
 Human relations patterns may be categorized as follows (Carnegie 2010, page 50, 112, 200, 248):
 
-- Fundamental Techniques in Handling People
+* Fundamental Techniques in Handling People
 
- - Don't criticize, condemn or complain.
+ * Don't criticize, condemn or complain.
+   (Carnegie 2010, chapter "If you want to gather honey, don't kick over the
+   beehive")
 
-   (Carnegie 2010, chapter "If you want to gather honey, don't kick over the beehive")
-
- - Give honest and sincere appreciation.
-
+ * Give honest and sincere appreciation.
    (Carnegie 2010, chapter "The big secret of dealing with people")
 
- - Arouse in the other person an eager want.
+ * Arouse in the other person an eager want.
+   (Carnegie 2010, chapter "He who can do this has the whole world with him.
+   He Who cannot walks a lonely way")
 
-   (Carnegie 2010, chapter "He who can do this has the whole world with him. He Who cannot walks a lonely way")
+* Make people like you
 
- - Make people like you
-
- - Be a good listener. Encourage others to talk about themselves.
-
+ * Be a good listener. Encourage others to talk about themselves.
    (Carnegie 2010, chapter "An easy way to become a good conversationalist")
 
- - Become  genuinely interested in other people.
-
+ * Become  genuinely interested in other people.
    (Carnegie 2010, chapter "Do this and you'll be welcome anywhere")
 
- - Make the other person feel important - and do it sincerely.
-
+ * Make the other person feel important - and do it sincerely.
    (Carnegie 2010, chapter "How to make people like you instantly")
 
- - Remember that a person's name is to that person the sweetest and most important sound in any language.
-
+ * Remember that a person's name is to that person the sweetest and most
+   important sound in any language.
    (Carnegie 2010, chapter "If you don't do that you are headed for trouble")
 
- - Smile.
-
+ * Smile.
    (Carnegie 2010, chapter "A simple way to make a good first impression")
 
- - Talk in terms of the other person's interests.
-
+ * Talk in terms of the other person's interests.
    (Carnegie 2010, chapter "How to interest people")
 
- - Win people to your way of thinking
+* Win people to your way of thinking
 
- - Appeal to the nobler motives.
+ * Appeal to the nobler motives.
 
- - Be sympathetic with the other person's ideas and desires.
+ * Be sympathetic with the other person's ideas and desires.
 
- - Begin in a friendly way.
-
+ * Begin in a friendly way.
    (Carnegie 2010, chapter "A drop of honey")
 
- - Dramatize your ideas.
+ * Dramatize your ideas.
 
- - Get the other person saying "yes, yes" immediately.
-
+ * Get the other person saying "yes, yes" immediately.
    (Carnegie 2010, chapter "The secret of socrates")
 
- - If you are wrong, admit it quickly and emphatically.
-
+ * If you are wrong, admit it quickly and emphatically.
    (Carnegie 2010, chapter "If you are wrong, admit it")
 
- - Let the other person do a great deal of the talking.
-
+ * Let the other person do a great deal of the talking.
    (Carnegie 2010, chapter "The safety valve in handling complaints")
 
- - Let the other person feel that the idea is his or hers.
-
+ * Let the other person feel that the idea is his or hers.
    (Carnegie 2010, chapter "How to get cooperation")
 
- - Show respect to the other person's opinions. Never say, "You're wrong."
+ * Show respect to the other person's opinions. Never say, "You're wrong."
+   (Carnegie 2010, chapter "A sure way of making enemies - and how to avoid
+   it")
 
-   (Carnegie 2010, chapter "A sure way of making enemies - and how to avoid it")
-
- - The only way to get the best of an argument is to avoid it.
-
+ * The only way to get the best of an argument is to avoid it.
    (Carnegie 2010, chapter "You can't win an argument")
 
- - Throw down a challenge.
+ * Throw down a challenge.
 
- - Try honestly to see things from the other person's point of view.
+ * Try honestly to see things from the other person's point of view.
 
-- Change people
+* Change people
 
- - Ask questions instead of giving direct orders.
+ * Ask questions instead of giving direct orders.
 
- - Begin with praise and honest appreciation.
-
+ * Begin with praise and honest appreciation.
    (Carnegie 2010, chapter "If you must find fault, this is the way to begin")
 
- - Call attention to people's mistakes indirectly.
+ * Call attention to people's mistakes indirectly.
 
- - Give the other person a fine reputation to live up to.
+ * Give the other person a fine reputation to live up to.
 
- - Talk about your own mistakes before criticizing the other person.
+ * Talk about your own mistakes before criticizing the other person.
 
- - Let the other person save face.
+ * Let the other person save face.
 
- - Make the other person happy about doing the thing you suggest.
+ * Make the other person happy about doing the thing you suggest.
 
- - Praise the slightest improvement and praise every improvement. Be "hearty in your approbation and lavish in your praise."
+ * Praise the slightest improvement and praise every improvement. Be "hearty
+   in your approbation and lavish in your praise."
 
- - Use encouragement. Make the fault seem easy to correct.
+ * Use encouragement. Make the fault seem easy to correct.
 
