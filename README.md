@@ -2,9 +2,7 @@
 
 ## About
 
-The [ESWP³](http://eswp3.readthedocs.org/) is an interactive "Knowledge
-Reference Database for Embedded Software". It is structuring, summarizing
-and referenzing information.
+The [ESWP³](http://eswp3.org/) is about summarizing, referencing, structuring and relating principles, procedures (as sequences of patterns in a pattern languages) and patterns in the context of embedded software engineering.
 
 ## How to contribute
 
