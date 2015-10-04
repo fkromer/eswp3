@@ -288,6 +288,26 @@ follows:
  * Watchdog Pattern
  * Safety Executive Pattern
 
+Classification of idiomatic patterns
+====================================
+
+Idiomatic patterns may be classified according to their scope of optimization
+(Peterson 2010):
+
+* robustness
+
+ * Array size by division
+ * Compound types with {0}
+ * Constants to the left
+ * Sizeof to variables
+
+* expressiveness
+
+ * Assertion context
+ * Magic numbers as variables
+ * Named parameters
+ * Add the name space
+
 Pattern Selection Procedure
 ===========================
 
