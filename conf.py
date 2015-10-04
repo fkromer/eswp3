@@ -50,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'ESWP³'
-copyright = '2015, <a href="https://github.com/fkromer">fkromer</a>'
+copyright = '2015, fkromer'
 author = 'Contributers to the <a href="https://github.com/fkromer/eswp3">ESWP³ project</a>'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -225,7 +225,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'eswp3.tex', 'ESWP3 - Embedded Software Principles, Patterns and Procedures',
+  (master_doc, 'eswp3.tex', 'ESWP3 - Embedded Software Principles, Procedures and Patterns',
    'ESWP3 contributors', 'manual'),
 ]
 
@@ -255,7 +255,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'eswp3', 'ESWP3 - Embedded Software Principles, Patterns and Procedures',
+    (master_doc, 'eswp3', 'ESWP3 - Embedded Software Principles, Procedures and Patterns',
      [author], 1)
 ]
 
@@ -269,7 +269,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'eswp3', 'ESWP3 - Embedded Software Principles, Patterns and Procedures',
+  (master_doc, 'eswp3', 'ESWP3 - Embedded Software Principles, Procedures and Patterns',
    author, 'eswp3', 'One line description of project.',
    'Miscellaneous'),
 ]
