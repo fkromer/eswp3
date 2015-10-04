@@ -22,7 +22,6 @@ Contents:
    principles
    human_relation_patterns
    build_patterns
-   release_antipatterns
    requirement_patterns
    design_patterns
    idioms
