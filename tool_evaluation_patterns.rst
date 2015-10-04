@@ -1,8 +1,8 @@
-.. _tool_evaluation_procedures:
+.. _tool_evaluation_patterns:
 
-==========================
-Tool evaluation procedures
-==========================
+========================
+Tool evaluation patterns
+========================
 
 Unit/Integration Test Tool
 ==========================
@@ -54,3 +54,11 @@ Classification of Unit/Integration Test Tool Capabilities
  * content
  * data formats
 
+All tool selection patterns in alphabetic order
+===============================================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   tool_patterns/*

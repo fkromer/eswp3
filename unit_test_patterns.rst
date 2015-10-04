@@ -130,6 +130,16 @@ Value Patterns may be categorized further regarding the unit test context:
  * In/out range check
  * Inverse data structures
 
+
+Categorization of unit test patterns
+====================================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   unit_test_patterns/*
+
 In/out range check
 ------------------
 

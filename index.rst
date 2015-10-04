@@ -7,7 +7,7 @@ ESWP³ - Embedded Software Principles, Procedures and Patterns
 =============================================================
 
 This project is about summarizing, referencing, structuring and relating
-principles, procedures (as sequences of patterns in a pattern languages) and
+principles, procedures (as sequences of patterns in a pattern language) and
 patterns in the context of embedded software engineering.
 
 As "(P)atterns are only meaningful as part of a Pattern Language(.)" (Bergin
@@ -20,7 +20,6 @@ Contents:
    :maxdepth: 1
 
    principles
-   pattern_extraction_procedures
    human_relation_patterns
    build_patterns
    release_antipatterns
@@ -30,6 +29,7 @@ Contents:
    unit_test_patterns
    unit_test_smells
    tool_evaluation_patterns
+   pattern_extraction_procedures
    bibliography
    about
 
