@@ -20,15 +20,8 @@ Contents:
    :maxdepth: 1
 
    principles
-   human_relation_patterns
-   build_patterns
-   requirement_patterns
-   design_patterns
-   idioms
-   unit_test_patterns
-   unit_test_smells
-   tool_evaluation_patterns
-   pattern_extraction_procedures
+   procedures
+   patterns
    bibliography
    about
 
