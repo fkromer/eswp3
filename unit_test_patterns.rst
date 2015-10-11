@@ -10,7 +10,58 @@ software it is common to use full-feature unit test tools. In this case you
 do not have to worry about a lot of the problems which are addressed by
 some unit test pattern categories related to "manage the test harness
 yourself" test frameworks (e.g. xUnit Basics Patterns, Test
-Organization Patterns). Beside of this "i do not have to care about the
+Organization Patterns). As "non-open-source" unit test tools in C/C++ implement
+the "Test Automation Framework" unit test pattern some Unit Test Patterns
+could be already implemented by the tool:
+
+ * Assertion Method
+ * Automated Teardown
+ * Chained Tests
+ * Configurable Test Double
+ * Creation Method
+ * Data-Driven Test
+ * Delegated Setup
+ * Delta Assertion
+ * Implicit Setup
+ * Implicit Teardown
+ * In-line Setup
+ * In-line Teardown
+ * Prebuilt Fixture
+ * Scripted Test
+ * Standard Fixture
+ * Test Discovery
+ * Test Double
+ * Test Runner
+ * Test Selection
+ * Testcase Object
+ * Unfinished Test Assertion
+
+The basics for the functionality of the following patterns are implemented by most "non-open source" unit test tools for C but some implementation work is left to the tester:
+
+ * Behavior Verification
+ * Derived Value
+ * Fake Object
+
+However it may be hard or even possible that some patterns can not be
+implemented with full-fledged test frameworks due to their architecture:
+
+ * Lazy Setup
+ * Minimal Fixture
+ * Mock Object
+ * Testcase Class (~ C++)
+ * Testcase Class per Class (~ C++)
+ * Testcase Class per Feature (~ C++)
+ * Testcase Class per Fixture (~ C++)
+ * Testcase Superclass (~ C++)
+
+In the safety/availability-critical contexts some patterns are not appliable
+because the production code may be not modified before, during or after test
+execution:
+
+ * Test Hook
+ * 
+
+Beside of this "i do not have to care about the
 pattern implementation" it is important to know the patterns to get an idea
 about the tool in use can be used as efficient as possible. However some
 pattern categories may be relevant independent of the tool in use and the
