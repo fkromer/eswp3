@@ -1,31 +1,33 @@
 .. _procedures:
 
-##########
-Procedures
-##########
+##############################
+Procedures (Pattern Languages)
+##############################
 
 Procedures are meant to be pattern languages. They shall point out how to apply
 several patterns of different levels of scope to solve a high-level problem in a
 sequential manner considering the balancing of forces which are influenced. 
 
 
-Categorization of procedures
-============================
+Categorization of pattern languages
+===================================
 
-The most obvious categorization scheme for procedures is related to the scope of
-optimization (~ pattern categories):
+The most obvious categorization scheme for pattern lanugages is related to the
+scope of optimization (~ pattern categories):
 
-* human relation pattern procedures
-* build pattern procedures
-* requirement pattern procedures
-* design pattern procedures
-* unit test pattern procedures
-* tool pattern procedures
+* human relation pattern languages
+* build pattern languages
+* requirement pattern languages
+* design pattern languages
+* unit test pattern languages
+* tool pattern languages
 
-All procedures in alphabetic order
-==================================
+All pattern languages in alphabetic order
+=========================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 5
 
-   pattern_extraction_procedures
+   pattern_languages/pattern_extraction_language
+   design_pattern_languages
+

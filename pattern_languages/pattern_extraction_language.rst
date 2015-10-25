@@ -1,8 +1,8 @@
-.. _pattern_extraction_procedures:
+.. _pattern_extraction_language:
 
-*****************************
-Pattern Extraction Procedures
-*****************************
+***********************************
+Pattern Extraction Pattern Language
+***********************************
 
 Before learning about specific patterns it makes sense to learn about how to
 extract patterns because "(w)riting patterns in your own field can change the
