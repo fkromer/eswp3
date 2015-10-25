@@ -9,7 +9,7 @@ can be found explicitly. References to them are stated implicitly in the
 explicit meta-data **Problem** of specifc patterns instead.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 5
    
    human_relation_patterns
    build_patterns
