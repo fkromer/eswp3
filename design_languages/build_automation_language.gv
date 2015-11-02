@@ -1,0 +1,43 @@
+digraph build_automation_language{
+   // styling
+   size="11";
+   node [color=lightblue2, style=filled];
+
+   // 1st to 2nd level node transitions
+   bal -> ph;
+   bal -> cfg;
+   bal -> nlp;
+   bal -> log;
+   bal -> fh;
+
+   // 2nd to 3rd level node transitions
+   ph -> fh;
+   nlp -> kwdp;
+   nlp -> tp;
+   nlp -> rkwp;
+   log -> pblog;
+
+   // 3rd to 4th level node transitions
+   kwdp -> kwr;
+   kwdp -> kwm;
+
+// 1st level nodes
+bal [label="Build Automation Lanugage"];
+
+// 2nd level nodes (left to right)
+ph [label="Path Handling", URL="../design_languages/build_automation_language.html#path-handling"];
+cfg [label="Configuration", URL="../design_languages/build_automation_language.html#configuration"];
+nlp [label="Natural Language Processing"];
+log [label="Logging"];
+
+// 3rd level nodes (left to right)
+fh [label="File Handling", URL="../design_languages/build_automation_language.html#file-handling"];
+kwdp [label="Keyword Processing"];
+tp [label="Token Processing"];
+rkwp [label="Relative-to-Token Processing"];
+pblog [label="Pre-buffered Logging"];
+
+// 4th level nodes (left to right)
+kwr [label="Keyword Replacement"];
+kwm [label="Keyword Modification"];
+}
