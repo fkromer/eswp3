@@ -30,4 +30,5 @@ All pattern languages in alphabetic order
 
    pattern_languages/pattern_extraction_language
    design_pattern_languages
+   unittest_pattern_languages
 
