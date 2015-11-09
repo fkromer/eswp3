@@ -4,9 +4,9 @@
 Safety Embedded C Unittest Pattern Language
 *******************************************
 
-.. image:: embedded_c_unittest_language.png
+.. image:: embedded_c_unittest_pattern_language.svg
    :width: 600 px
    :scale: 100 %
-   :alt: The graphical representation of a Safety Embedded C Unittest Pattern Language.
+   :alt: The graphical representation of an Embedded C Unittest Pattern Language.
    :align: center
 

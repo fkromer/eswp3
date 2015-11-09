@@ -1,0 +1,99 @@
+digraph embedded_c_unittest_pattern_language{
+   // styling
+   size="11";
+   node [color=lightblue2, style=filled];
+
+   // 1st to 2nd level node transitions
+   embc -> bkbox;
+   embc -> whbox;
+   embc -> usecase;
+   embc -> exloc;
+
+   // 2nd to 3rd level node transitions
+   bkbox -> eqpart;
+   whbox -> eqpart;
+   whbox -> cls;
+   whbox -> ocls;
+   whbox -> nocls;
+   whbox -> pclp;
+   pclp -> stcov;
+   pclp -> brcov;
+   pclp -> condcov;
+   pclp -> dccov;
+   pclp -> mcdccov;
+   pclp -> ptncov;
+   exloc -> extar;
+   exloc -> exemu;
+   exloc -> exhost;
+
+   // 3rd to 4th level node transitions
+   eqpart -> bndval;
+   ocls -> cls;
+   exhost -> exemu;
+   exhost -> extar;
+   eqpart -> outeqpart;
+   eqpart -> ineqpart;
+   stcov -> ineqpart;
+   brcov -> ineqpart;
+   condcov -> ineqpart;
+   dccov -> ineqpart;
+   mcdccov -> ineqpart;
+   ptncov -> ineqpart;
+
+   // 4th to 5th level node transitions
+   bndval -> outbndval;
+   bndval -> inbndval;
+   exemu -> extar;
+
+   // 5th to 6th level node transitions
+   outeqpart -> prmdt;
+   outbndval -> prmdt;
+   inbndval -> prmdt;
+   ineqpart -> prmdt;
+   outeqpart -> ptrdt;
+   outbndval -> ptrdt;
+   inbndval -> ptrdt;
+   ineqpart -> ptrdt;
+
+   // 6th to 7th level node transitions
+   prmdt -> regstb;
+
+// 1st level nodes
+embc [label="Embedded C Unittest Pattern Language"];
+
+// 2nd level nodes (left to right)
+whbox [label="Whitebox Testing"];
+bkbox [label="Blackbox Testing"];
+pclp [label="Processing Logic"];
+usecase [label="Use Case/BDD"];
+exloc [label="Execution location"];
+
+// 3rd level nodes (left to right)
+eqpart [label="Equivalent Partitioning"];
+stcov [label="Statement Coverage"];
+brcov [label="Branch/Decision Coverage"];
+condcov [label="(Branch) Condition Coverage"];
+dccov [label="Decision/condition Coverage"];
+mcdccov [label="Modified Condition Decision Coverage"];
+ptncov [label="Path^n coverage"];
+exhost [label="Run on host"];
+cls [label="Called"];
+ocls [label="Ordered Calls"];
+nocls [label="Not Called"];
+
+// 4th level nodes (left to right)
+ineqpart [label="Input Equivalent Partitioning"];
+outeqpart [label="Output Equivalent Partitioning"];
+bndval [label="Boundary Value Analysis"];
+exemu [label="Run on emulator"];
+extar [label="Run on target"];
+
+// 5th label nodes (left to right)
+inbndval [label="Input boundary value analysis"];
+outbndval [label="Output boundary value analysis"];
+prmdt [label="Primitive data type"];
+ptrdt [label="Pointer data type"];
+
+// 7th label nodes (left to right)
+regstb [label="Register access stub"];
+}
