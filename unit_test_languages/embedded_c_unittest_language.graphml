@@ -15,7 +15,6 @@
   <graph edgedefault="directed" id="G">
     <data key="d0"/>
     <node id="n0">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="119.0" x="370.78571428571433" y="106.71507936507938"/>
@@ -33,7 +32,6 @@
       </data>
     </node>
     <node id="n1">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="56.0" x="326.78571428571433" y="161.71507936507936"/>
@@ -51,7 +49,6 @@
       </data>
     </node>
     <node id="n2">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="78.30793650793646" x="-362.6091269841272" y="317.5420634920632"/>
@@ -69,7 +66,6 @@
       </data>
     </node>
     <node id="n3">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="82.0" x="-4.84563492063495" y="357.6603174603174"/>
@@ -87,7 +83,6 @@
       </data>
     </node>
     <node id="n4">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="58.0" x="-63.34563492063495" y="417.6603174603173"/>
@@ -105,7 +100,6 @@
       </data>
     </node>
     <node id="n5">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="83.0" x="108.05912698412686" y="361.931746031746"/>
@@ -123,7 +117,6 @@
       </data>
     </node>
     <node id="n6">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="68.0" x="-53.84563492063495" y="297.6603174603174"/>
@@ -141,7 +134,6 @@
       </data>
     </node>
     <node id="n7">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="97.0" x="-131.84563492063495" y="357.6603174603174"/>
@@ -159,7 +151,6 @@
       </data>
     </node>
     <node id="n8">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="72.0" x="-53.58373015873025" y="168.4281746031744"/>
@@ -177,7 +168,6 @@
       </data>
     </node>
     <node id="n9">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="37.0" x="196.77738095238084" y="473.31071428571414"/>
@@ -195,13 +185,12 @@
       </data>
     </node>
     <node id="n10">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="136.7079365079365" x="-178.62738095238097" y="235.8170634920633"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="127.78515625" x="4.461390128968219" y="6.015625">In-range parameters<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="127.78515625" x="4.461390128968247" y="6.015625">In-range parameters<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -213,7 +202,6 @@
       </data>
     </node>
     <node id="n11">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="169.1111111111111" x="-7.185317460317435" y="234.33769841269833"/>
@@ -231,7 +219,6 @@
       </data>
     </node>
     <node id="n12">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.0" x="416.78571428571433" y="47.715079365079376"/>
@@ -249,7 +236,6 @@
       </data>
     </node>
     <node id="n13">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="151.0" x="312.1025396825397" y="-22.323650793650792"/>
@@ -267,7 +253,6 @@
       </data>
     </node>
     <node id="n14">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="90.32380952380947" x="-429.54523809523823" y="400.23015873015856"/>
@@ -285,7 +270,6 @@
       </data>
     </node>
     <node id="n15">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="90.32380952380947" x="-309.07460317460357" y="403.1916666666665"/>
@@ -303,7 +287,6 @@
       </data>
     </node>
     <node id="n16">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="194.6174603174603" x="265.6816137566138" y="215.57706349206344"/>
@@ -321,7 +304,6 @@
       </data>
     </node>
     <node id="n17">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="70.85396825396828" x="376.77050264550263" y="305.17269841269837"/>
@@ -339,7 +321,6 @@
       </data>
     </node>
     <node id="n18">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="113.33333333333343" x="49.952380952380906" y="467.8571428571427"/>
@@ -357,7 +338,6 @@
       </data>
     </node>
     <node id="n19">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="133.57142857142856" x="90.42857142857139" y="590.8095238095239"/>
@@ -375,13 +355,12 @@
       </data>
     </node>
     <node id="n20">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="148.4523809523809" x="-122.96428571428567" y="550.6309523809523"/>
+          <y:Geometry height="30.0" width="157.67460317460308" x="-122.96428571428567" y="550.6309523809523"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="134.587890625" x="6.932245163690453" y="6.015625">Register access mock<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="147.091796875" x="5.291403149801539" y="6.015625">Prozessor Register Stub<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -393,7 +372,6 @@
       </data>
     </node>
     <node id="n21">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="132.67857142857144" x="-435.16666666666663" y="239.8452380952383"/>
@@ -411,7 +389,6 @@
       </data>
     </node>
     <node id="n22">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="89.52380952380952" x="-315.04761904761887" y="537.0595238095242"/>
@@ -429,7 +406,6 @@
       </data>
     </node>
     <edge id="e0" source="n6" target="n7">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="-22.666666666666664" sy="15.0" tx="0.0" ty="-15.0">
@@ -442,7 +418,6 @@
       </data>
     </edge>
     <edge id="e1" source="n6" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="15.0" tx="14.5" ty="-15.0"/>
@@ -452,7 +427,6 @@
       </data>
     </edge>
     <edge id="e2" source="n6" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="22.666666666666664" sy="15.0" tx="0.0" ty="-15.0">
@@ -465,7 +439,6 @@
       </data>
     </edge>
     <edge id="e3" source="n7" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="15.0" tx="-14.5" ty="-15.0">
@@ -478,7 +451,6 @@
       </data>
     </edge>
     <edge id="e4" source="n12" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="28.5" ty="0.0"/>
@@ -488,7 +460,6 @@
       </data>
     </edge>
     <edge id="e5" source="n0" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -500,7 +471,6 @@
       </data>
     </edge>
     <edge id="e6" source="n13" target="n12">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="-38.5" ty="0.0">
@@ -513,7 +483,6 @@
       </data>
     </edge>
     <edge id="e7" source="n13" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="-25.5" sy="0.0" tx="-35.5" ty="1.0">
@@ -526,7 +495,6 @@
       </data>
     </edge>
     <edge id="e8" source="n13" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="-45.81682539682538" sy="0.0" tx="-13.0" ty="7.0"/>
@@ -536,7 +504,6 @@
       </data>
     </edge>
     <edge id="e9" source="n6" target="n5">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -548,7 +515,6 @@
       </data>
     </edge>
     <edge id="e10" source="n8" target="n10">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -560,7 +526,6 @@
       </data>
     </edge>
     <edge id="e11" source="n1" target="n16">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="-8.204629629629608" ty="0.0"/>
@@ -570,7 +535,6 @@
       </data>
     </edge>
     <edge id="e12" source="n5" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -583,7 +547,6 @@
       </data>
     </edge>
     <edge id="e13" source="n8" target="n11">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -595,7 +558,6 @@
       </data>
     </edge>
     <edge id="e14" source="n11" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.10833333333312112" ty="-5.955158730158701">
@@ -607,7 +569,6 @@
       </data>
     </edge>
     <edge id="e15" source="n10" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -619,7 +580,6 @@
       </data>
     </edge>
     <edge id="e16" source="n5" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -631,7 +591,6 @@
       </data>
     </edge>
     <edge id="e17" source="n16" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="49.2071428571428" sy="0.0" tx="0.0" ty="0.0"/>
@@ -641,7 +600,6 @@
       </data>
     </edge>
     <edge id="e18" source="n18" target="n19">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="-12.499999999999972" ty="0.0">
@@ -654,7 +612,6 @@
       </data>
     </edge>
     <edge id="e19" source="n2" target="n15">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -666,7 +623,6 @@
       </data>
     </edge>
     <edge id="e20" source="n2" target="n14">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
