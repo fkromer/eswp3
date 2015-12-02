@@ -23,6 +23,7 @@ Contents:
    procedures
    patterns
    bibliography
+   contribution
    about
 
 Indices and tables
