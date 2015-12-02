@@ -13,6 +13,8 @@ digraph embedded_c_unittest_pattern_language{
    bkbox -> eqpart;
    whbox -> eqpart;
    whbox -> cls;
+   whbox -> cft;
+   whbox -> stt;
    whbox -> ocls;
    whbox -> nocls;
    whbox -> pclp;
@@ -28,6 +30,7 @@ digraph embedded_c_unittest_pattern_language{
 
    // 3rd to 4th level node transitions
    eqpart -> bndval;
+   cft -> ocls;
    ocls -> cls;
    exhost -> exemu;
    exhost -> extar;
@@ -69,7 +72,7 @@ usecase [label="Use Case/BDD"];
 exloc [label="Execution location"];
 
 // 3rd level nodes (left to right)
-eqpart [label="Equivalent Partitioning"];
+eqpart [label="Equivalence Partitioning"];
 stcov [label="Statement Coverage"];
 brcov [label="Branch/Decision Coverage"];
 condcov [label="(Branch) Condition Coverage"];
@@ -77,6 +80,8 @@ dccov [label="Decision/condition Coverage"];
 mcdccov [label="Modified Condition Decision Coverage"];
 ptncov [label="Path^n coverage"];
 exhost [label="Run on host"];
+stt [label="State transition testing"];
+cft [label="Control Flow Test"];
 cls [label="Called"];
 ocls [label="Ordered Calls"];
 nocls [label="Not Called"];
