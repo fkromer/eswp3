@@ -9,6 +9,7 @@ digraph build_automation_language{
    bal -> nlp;
    bal -> log;
    bal -> fh;
+   bal -> dist;
 
    // 2nd to 3rd level node transitions
    ph -> fh;
@@ -29,6 +30,7 @@ ph [label="Path Handling", URL="../design_languages/build_automation_language.ht
 cfg [label="Configuration", URL="../design_languages/build_automation_language.html#configuration"];
 nlp [label="Natural Language Processing"];
 log [label="Logging"];
+dist [label="Distribution"];
 
 // 3rd level nodes (left to right)
 fh [label="File Handling", URL="../design_languages/build_automation_language.html#file-handling"];
