@@ -15,12 +15,17 @@ class DotBuilderTest(unittest.TestCase):
     def setUp(self):
         print('\n--- Begin setUp ---')
         self.__create_files_in_test_dir()
+        self.__copy_gv_file_into_test_dir()
+        print('Directory and file content: ')
+        self.__print_dir_content()
         print('--- End setUp ---')
 
     def tearDown(self):
         print('\n--- Begin tearDown ---')
         self.__cleanup_test_dir()
         #pass
+        print('Directory and file content: ')
+        self.__print_dir_content()
         print('\n--- End tearDown ---')
 
     def __create_files_in_test_dir(self):
@@ -42,8 +47,15 @@ class DotBuilderTest(unittest.TestCase):
         open('test_dir_1/test_dir_1.gv', 'w').close()
         os.mkdir('test_dir_2')
         open('test_dir_2/test_dir_2.gv', 'w').close()
-        print('Directory and file content: ')
-        self.__print_dir_content()
+
+    def __copy_gv_file_into_test_dir(self):
+        """
+        Copy file from root test directory into test directory.
+        """
+        file_dir = os.path.dirname(os.path.realpath(__file__))
+        gv_source = file_dir + '/test_gv_file.gv'
+        gv_destination = file_dir + '/test_dir/test_gv_file.gv'
+        shutil.copyfile(gv_source, gv_destination)
 
     def __cleanup_test_dir(self):
         """
@@ -59,8 +71,6 @@ class DotBuilderTest(unittest.TestCase):
                 elif os.path.isdir(file_path): shutil.rmtree(file_path)
             except Exception as e:
                 print(e)
-        print('Directory and file content: ')
-        self.__print_dir_content()
 
     def __print_dir_content(self):
         """
@@ -84,9 +94,21 @@ class DotBuilderTest(unittest.TestCase):
         destination_dir = os.path.join(file_dir, 'test_dir')
         builder = pb.PreBuilder()
         dir_entries = builder.find_dot_files(destination_dir)
-        self.assertListEqual(dir_entries, [destination_dir + '/test_dir.gv',
+        self.assertListEqual(dir_entries, [destination_dir + '/test_gv_file.gv',
+                                           destination_dir + '/test_dir.gv',
                                            destination_dir + '/test_dir_1/test_dir_1.gv',
                                            destination_dir + '/test_dir_2/test_dir_2.gv'])
+
+    def test_convert_to_svg_file(self):
+        """
+        The function convert_to_svg() shall convert a .gv file to a .svg
+        file.
+        """
+        file_dir = os.path.dirname(os.path.realpath(__file__))
+        destination_dir = os.path.join(file_dir, 'test_dir')
+        builder = pb.PreBuilder()
+        builder.convert_to_svg(destination_dir + '/test_gv_file.gv')
+        self.assertTrue(os.path.isfile(destination_dir + '/test_gv_file.svg'))
 
 if __name__ == "__main__":
     # run all unit tests
