@@ -14,6 +14,7 @@ class DotBuilderTest(unittest.TestCase):
     """
     def setUp(self):
         print('\n--- Begin setUp ---')
+        self.__configure_unittest()
         self.__get_directories()
         self.__create_files_in_test_dir()
         self.__copy_gv_file_into_test_dir()
@@ -28,6 +29,12 @@ class DotBuilderTest(unittest.TestCase):
         print('Directory and file content: ')
         self.__print_dir_content()
         print('\n--- End tearDown ---')
+
+    def __configure_unittest(self):
+        """
+        Configures unittest to allow unlimited diff result printing in output.
+        """
+        self.maxDiff = None
 
     def __get_directories(self):
         """
@@ -66,7 +73,7 @@ class DotBuilderTest(unittest.TestCase):
 
     def __cleanup_test_dir(self):
         """
-        Delete all sub directories and "*.gv" files in the test directory.
+        Delete all sub directories and all files in the test directory.
         """
         for the_file in os.listdir(self.test_dir):
             file_path = os.path.join(self.test_dir, the_file)
@@ -117,6 +124,13 @@ class DotBuilderTest(unittest.TestCase):
 #        - find all *.gv files in a directory recursively
 #        - convert all *.gv files into *.svg files
 #        """
+#        builder = pb.PreBuilder()
+#        builder.find_and_convert(self.test_dir)
+#        dir_entries = builder.find_dot_files(self.test_dir)
+#        self.assertListEqual(dir_entries, [self.test_dir + '/test_gv_file.svg',
+#                                           self.test_dir + '/test_dir.svg',
+#                                           self.test_dir + '/test_dir_1/test_dir_1.svg',
+#                                           self.test_dir + '/test_dir_2/test_dir_2.svg'])
 
 if __name__ == "__main__":
     # run all unit tests
