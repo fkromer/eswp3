@@ -1,5 +1,5 @@
 """
-Unit tests for the p3/pre-buidler module.
+Unit tests for the p3/pre-builder module.
 """
 
 import p3.pre_builder as pb
@@ -14,7 +14,7 @@ class DotBuilderTest(unittest.TestCase):
     """
     def setUp(self):
         print('\n--- Begin setUp ---')
-        self.__get_file_dir()
+        self.__get_directories()
         self.__create_files_in_test_dir()
         self.__copy_gv_file_into_test_dir()
         print('Directory and file content: ')
@@ -29,11 +29,14 @@ class DotBuilderTest(unittest.TestCase):
         self.__print_dir_content()
         print('\n--- End tearDown ---')
 
-    def __get_file_dir(self):
+    def __get_directories(self):
         """
-        self.file_dir: the directory of this script
+        Get the directories relevant for tests:
+        - self.file_dir: the directory of this script
+        - self.test_dir: the root directory for tests
         """
         self.file_dir = os.path.dirname(os.path.realpath(__file__))
+        self.test_dir = os.path.join(self.file_dir, 'test_dir')
 
     def __create_files_in_test_dir(self):
         """
@@ -46,8 +49,7 @@ class DotBuilderTest(unittest.TestCase):
             /test_dir_2
               test_dir_2.gv
         """
-        test_dir = os.path.join(self.file_dir, 'test_dir')
-        os.chdir(test_dir)
+        os.chdir(self.test_dir)
         open('test_dir.gv', 'w').close()
         os.mkdir('test_dir_1')
         open('test_dir_1/test_dir_1.gv', 'w').close()
@@ -66,9 +68,8 @@ class DotBuilderTest(unittest.TestCase):
         """
         Delete all sub directories and "*.gv" files in the test directory.
         """
-        folder = os.path.join(self.file_dir, 'test_dir')
-        for the_file in os.listdir(folder):
-            file_path = os.path.join(folder, the_file)
+        for the_file in os.listdir(self.test_dir):
+            file_path = os.path.join(self.test_dir, the_file)
             try:
                 if os.path.isfile(file_path):
                     os.unlink(file_path)
@@ -94,23 +95,21 @@ class DotBuilderTest(unittest.TestCase):
         The function find_dot_files() shall find all files in the directory
         which fit the pattern "*.gv".
         """
-        destination_dir = os.path.join(self.file_dir, 'test_dir')
         builder = pb.PreBuilder()
-        dir_entries = builder.find_dot_files(destination_dir)
-        self.assertListEqual(dir_entries, [destination_dir + '/test_gv_file.gv',
-                                           destination_dir + '/test_dir.gv',
-                                           destination_dir + '/test_dir_1/test_dir_1.gv',
-                                           destination_dir + '/test_dir_2/test_dir_2.gv'])
+        dir_entries = builder.find_dot_files(self.test_dir)
+        self.assertListEqual(dir_entries, [self.test_dir + '/test_gv_file.gv',
+                                           self.test_dir + '/test_dir.gv',
+                                           self.test_dir + '/test_dir_1/test_dir_1.gv',
+                                           self.test_dir + '/test_dir_2/test_dir_2.gv'])
 
     def test_convert_to_svg_file(self):
         """
         The function convert_to_svg() shall convert a .gv file to a .svg
         file.
         """
-        destination_dir = os.path.join(self.file_dir, 'test_dir')
         builder = pb.PreBuilder()
-        builder.convert_to_svg(destination_dir + '/test_gv_file.gv')
-        self.assertTrue(os.path.isfile(destination_dir + '/test_gv_file.svg'))
+        builder.convert_to_svg(self.test_dir + '/test_gv_file.gv')
+        self.assertTrue(os.path.isfile(self.test_dir + '/test_gv_file.svg'))
 
 #    def test_find_and_convert_dot_files(self):
 #        """
