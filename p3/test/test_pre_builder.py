@@ -1,5 +1,7 @@
 """
 Unit tests for the p3/pre-builder module.
+
+"cd" into eswp3/p3 and run **python -m unittest** to execute all test cases.
 """
 
 import p3.pre_builder as pb
@@ -67,8 +69,8 @@ class DotBuilderTest(unittest.TestCase):
         """
         Copy file from root test directory into test directory.
         """
-        gv_source = self.file_dir + '/test_gv_file.gv'
-        gv_destination = self.file_dir + '/test_dir/test_gv_file.gv'
+        gv_source = self.file_dir + '/test_dir.gv'
+        gv_destination = self.file_dir + '/test_dir/test_dir.gv'
         shutil.copyfile(gv_source, gv_destination)
 
     def __cleanup_test_dir(self):
@@ -104,10 +106,10 @@ class DotBuilderTest(unittest.TestCase):
         """
         builder = pb.PreBuilder()
         dir_entries = builder.find_dot_files(self.test_dir)
-        self.assertListEqual(dir_entries, [self.test_dir + '/test_gv_file.gv',
-                                           self.test_dir + '/test_dir.gv',
-                                           self.test_dir + '/test_dir_1/test_dir_1.gv',
-                                           self.test_dir + '/test_dir_2/test_dir_2.gv'])
+        self.assertListEqual(dir_entries,
+                             [self.test_dir + '/test_dir.gv',
+                              self.test_dir + '/test_dir_1/test_dir_1.gv',
+                              self.test_dir + '/test_dir_2/test_dir_2.gv'])
 
     def test_convert_to_svg_file(self):
         """
@@ -115,8 +117,8 @@ class DotBuilderTest(unittest.TestCase):
         file.
         """
         builder = pb.PreBuilder()
-        builder.convert_to_svg(self.test_dir + '/test_gv_file.gv')
-        self.assertTrue(os.path.isfile(self.test_dir + '/test_gv_file.svg'))
+        builder.convert_to_svg(self.test_dir + '/test_dir.gv')
+        self.assertTrue(os.path.isfile(self.test_dir + '/test_dir.svg'))
 
 #    def test_find_and_convert_dot_files(self):
 #        """
@@ -127,10 +129,10 @@ class DotBuilderTest(unittest.TestCase):
 #        builder = pb.PreBuilder()
 #        builder.find_and_convert(self.test_dir)
 #        dir_entries = builder.find_dot_files(self.test_dir)
-#        self.assertListEqual(dir_entries, [self.test_dir + '/test_gv_file.svg',
-#                                           self.test_dir + '/test_dir.svg',
-#                                           self.test_dir + '/test_dir_1/test_dir_1.svg',
-#                                           self.test_dir + '/test_dir_2/test_dir_2.svg'])
+#        self.assertListEqual(dir_entries,
+#                             [self.test_dir + '/test_dir.svg',
+#                              self.test_dir + '/test_dir_1/test_dir_1.svg',
+#                              self.test_dir + '/test_dir_2/test_dir_2.svg'])
 
 if __name__ == "__main__":
     # run all unit tests
