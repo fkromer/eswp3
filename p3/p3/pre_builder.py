@@ -1,5 +1,6 @@
 """
-Pre-build functionality before running "make html" of sphinx-doc.
+Pre-build functionality before running the make target **make html** of the
+sphinx-doc makefile **eswp3/Makefile**.
 """
 
 import glob
@@ -13,7 +14,7 @@ class PreBuilder():
     """
     def find_dot_files(self, dir):
         """
-        Finds all files fitting the pattern "*.gv" within a directory recursively.
+        Finds all files with the pattern "*.gv" within a directory recursively.
 
         :param dir: directory to be searched in
         :return files: list of dot files
@@ -35,7 +36,7 @@ class PreBuilder():
     def convert_to_svg(self, dot_file):
         """
         Converts a dot file in the .gv format into a .svg file. Requires local
-        installation of graphviz and 
+        installation of graphviz and "visibility" as environment variable.
 
         :param dot_file: dot file to be converted
         :return svg_file: generated svg file
@@ -43,7 +44,10 @@ class PreBuilder():
         gv_file = dot_file
         file_name = os.path.splitext(gv_file)[0]
         svg_file = file_name + '.svg'
-        subprocess.call(["dot", "-Tsvg", "{}".format(gv_file), "-o", "{}".format(svg_file)])
+        subprocess.call(["dot",
+                        "-Tsvg", "{}".format(gv_file),
+                        "-o",
+                        "{}".format(svg_file)])
 
     def find_and_convert(self, dir):
         """
@@ -59,6 +63,14 @@ class PreBuilder():
             except Exception as e:
                 print('something went wrong during conversion')
                 print(e)
+
+#    def main():
+#        """
+#        Converts all graphical representations of pattern languages in graphviz
+#        files within a sphinx-doc project into graphic files and converts node
+#        names ("labels") within the graphviz files with a corresponding
+#        sphinx-doc section into hyperlinks to related sections.
+#        """
 
 if __name__ == "__main__":
     print('not implemented yet, testing in progress')
