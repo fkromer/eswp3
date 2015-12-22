@@ -5,7 +5,11 @@ _templates
 __pycache__
 # IDE files
 .idea
-# virtualenv files
+# eswp3 virtualenv files
+/venv/Include
+/venv/Lib
+/venv/Scripts
+# p3 virtualenv files
 p3/venv/Include
 p3/venv/Lib
 p3/venv/Scripts
