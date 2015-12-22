@@ -6,10 +6,8 @@ __pycache__
 # IDE files
 .idea
 # eswp3 virtualenv files
-/venv/Include
-/venv/Lib
-/venv/Scripts
+venv/
+!requirements.txt
 # p3 virtualenv files
-p3/venv/Include
-p3/venv/Lib
-p3/venv/Scripts
+p3/venv/
+!requirements.txt
