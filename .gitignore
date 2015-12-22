@@ -1,5 +1,11 @@
+# sphinx-doc generated files
 _build
 _static
 _templates
 __pycache__
+# IDE files
 .idea
+# virtualenv files
+p3/venv/Include
+p3/venv/Lib
+p3/venv/Scripts
