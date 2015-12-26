@@ -6,7 +6,16 @@ Singleton Pattern
 
 Ensures that only one instance of a class may be created.
 
-:Implementation example: Python - Abstract but running example of a singleton. (Zlobin 2013, chapter "A classic singleton")
+:Implementation example: Python - Basic "class" singleton (Zlobin 2013, section
+ "A classic singleton").
+
+:Implementation example: Python - Pythonic "modul instead of class" singleton
+ (Zlobin 2013, section "A module-level singleton").
+
+:Implementation example: Python - Webcrawler which scans for website-local
+ hyperlinks, follows the links and downloads the pictures on it (Zlobin 2013,
+ section "Chapter 2. Creating Only One Object with teh Singleton Pattern",
+ subsection "Implementation in Python" / Kindle pos. 417)
 
 Borg singleton
 --------------
