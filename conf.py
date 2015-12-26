@@ -107,6 +107,10 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+# -- Options for Graphviz -------------------------------------------------
+graphviz_dot = 'dot'
+graphviz_dot_args = ['-Tsvg']
+graphviz_output_format = 'svg' 
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -286,5 +290,3 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
-
-graphviz_output_format = 'svg'

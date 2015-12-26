@@ -4,7 +4,49 @@
 Build Automation Pattern Language
 *********************************
 
-.. graphviz:: build_automation_language.gv
+.. graphviz::
+
+   digraph build_automation_language{
+      // styling
+      size="11";
+      node [color=lightblue2, style=filled];
+
+      // 1st to 2nd level node transitions
+      bal -> ph;
+      bal -> cfg;
+      bal -> nlp;
+      bal -> log;
+      bal -> dist;
+
+      // 1st to 3rd level node transitions
+      bal -> fh;
+      
+      // 2nd to 3rd level node transitions
+      ph -> fh;
+      nlp -> kwdp;
+      nlp -> tp;
+      nlp -> rkwp;
+      log -> pblog;
+
+      // 3rd to 4th level node transitions
+      kwdp -> kwr;
+      kwdp -> kwm;
+
+      // nodes
+      bal [label="Build Automation Lanugage"];
+      ph [label="Path Handling", URL="../design_languages/build_automation_language.html#path-handling"];
+      cfg [label="Configuration", URL="../design_languages/build_automation_language.html#configuration"];
+      nlp [label="Natural Language Processing"];
+      log [label="Logging"];
+      dist [label="Distribution"];
+      fh [label="File Handling", URL="../design_languages/build_automation_language.html#file-handling"];
+      kwdp [label="Keyword Processing"];
+      tp [label="Token Processing"];
+      rkwp [label="Relative-to-Token Processing"];
+      pblog [label="Pre-buffered Logging"];
+      kwr [label="Keyword Replacement"];
+      kwm [label="Keyword Modification"];
+   }
 
 Configuration
 =============
