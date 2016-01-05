@@ -17,7 +17,7 @@ pattern languages and the higher-level principles "visible".
 Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    principles
    procedures
