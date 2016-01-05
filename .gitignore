@@ -1,6 +1,6 @@
 # sphinx-doc generated files
 _build
-_static
+#_static
 _templates
 __pycache__
 # IDE files
