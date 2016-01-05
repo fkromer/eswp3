@@ -31,6 +31,17 @@ Automated UML diagram generation pattern
  You will have up-to-date documentation of UML diagrams whenever the sphinx-doc
  build is run.
 
+Automated database model diagram generation pattern
+===================================================
+
+:Implementation example:
+ - Generation of database model diagram with the module **sadisplay**
+   https://bitbucket.org/estin/sadisplay/wiki/Home
+
+:Resulting context:
+ You will have up-to-date documentation of database model diagrams whenever the
+ sphinx-doc build is run.
+
 Inline UML diagram generation pattern
 =====================================
 
