@@ -48,6 +48,8 @@ Build Automation Pattern Language
       kwm [label="Keyword Modification"];
    }
 
+.. configuration:
+
 Configuration
 =============
 
@@ -83,6 +85,8 @@ Configuration
    :alt: The graphical representation of a Configuration Pattern Language.
    :align: center
 
+.. file-handling:
+
 File Handling
 =============
 
@@ -91,6 +95,8 @@ File Handling
    :scale: 100 %
    :alt: The graphical representation of File Handling Pattern Language.
    :align: center
+
+.. path-handling:
 
 Path Handling
 =============
