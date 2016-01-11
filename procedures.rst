@@ -26,7 +26,7 @@ All pattern languages in alphabetic order
 =========================================
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 1
 
    pattern_languages/pattern_extraction_language
    design_pattern_languages
