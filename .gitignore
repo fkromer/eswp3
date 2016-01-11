@@ -1,3 +1,13 @@
+# sphinx-doc generated files
 _build
-_static
+#_static
 _templates
+__pycache__
+# IDE files
+.idea
+# eswp3 virtualenv files
+venv/
+!requirements.txt
+# p3 virtualenv files
+p3/venv/
+!requirements.txt

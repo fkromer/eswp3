@@ -9,7 +9,7 @@ All unittest pattern languages in alphabetic order
 
 .. toctree::
    :glob:
-   :maxdepth: 5
+   :maxdepth: 1
 
    unit_test_languages/*
 
