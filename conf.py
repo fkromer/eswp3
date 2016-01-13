@@ -25,7 +25,8 @@ import shlex
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
-#needs_sphinx = '1.0'
+# requires 1.3.4 for hyperlinking of graphviz diagram nodes of inlined .svg diagrams
+needs_sphinx = '1.3'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -110,7 +111,7 @@ todo_include_todos = False
 # -- Options for Graphviz -------------------------------------------------
 graphviz_dot = 'dot'
 graphviz_dot_args = ['-Tsvg']
-graphviz_output_format = 'svg' 
+graphviz_output_format = 'svg'
 
 # -- Options for HTML output ----------------------------------------------
 

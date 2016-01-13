@@ -8,7 +8,7 @@ Build Automation Pattern Language
 
    digraph build_automation_language{
       // styling
-      size="11";
+      size="10";
       node [color=lightblue2, style=filled];
 
       // 1st to 2nd level node transitions
@@ -34,12 +34,12 @@ Build Automation Pattern Language
 
       // nodes
       bal [label="Build Automation Lanugage"];
-      ph [label="Path Handling", URL="../design_languages/build_automation_language.html#path-handling"];
-      cfg [label="Configuration", URL="../design_languages/build_automation_language.html#configuration"];
+      ph [label="Path Handling", href="../design_languages/build_automation_language.html#path-handling", target="_top"];
+      cfg [label="Configuration", href="file:///home/florian/ws_github/eswp3/_build/html/design_languages/build_automation_language.html#configuration", target="_top"];
       nlp [label="Natural Language Processing"];
       log [label="Logging"];
       dist [label="Distribution"];
-      fh [label="File Handling", URL="../design_languages/build_automation_language.html#file-handling"];
+      fh [label="File Handling", href="../design_languages/build_automation_language.html#file-handling", target="_top"];
       kwdp [label="Keyword Processing"];
       tp [label="Token Processing"];
       rkwp [label="Relative-to-Token Processing"];

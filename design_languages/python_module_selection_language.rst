@@ -23,27 +23,80 @@ Python Module Selection Pattern Language
 
 .. python_common_selection_pattern:
 
-Python common module selection pattern
+Python Common Module Selection Pattern
 ======================================
 
 :Context:
- You whant to add functionality to a python application and the probability is high that someone else already implemented
- the same functionality.
+ You whant to add functionality to a python application and the probability is
+ high that someone else already implemented the same functionality.
 
 :Problem:
- Implementing the functionality is often like reinventing the wheel because someone else already implemented
- the functionality
- and deployed it as a python module which may be imported into your project.
- You need to invest time (= money)
+ Implementing the functionality is often like reinventing the wheel because
+ someone else already implemented the functionality and deployed it as a python
+ module which may be imported into your project. If you whant to implement it
+ stable regarding future maintenance and imrovement you need to invest a lot of
+ time = money (CI environment for deployment, testing with different).
 
 :Forces:
 
  - supported Python versions
- - Python programming experience of people which develop/maintain the application
+ - supported dependent-on Python package
+ - supported dependent-on Python package versions
+ - application developer/maintainer experience with Python
  - module experience of developers/maintainers
+ - package "source" quality (official repository?)
+ - maintainance quality (updates/time, # contributors to the project,
+   downloads/time, issues/time, response time to issues, age of the project)
 
 :Solution:
- Find modules
+ - search modules in "trusted sources" [e.g. https://pypi.python.org]
+
+:Resulting context:
+
+ - if suiteable package found: be happy :)
+ - if no suiteable package found at all you need to implement it:
+  - "private" project
+  - "public"/open source project (github.com, bitbucket.com, ...)
+ - if familiar package found you may extend it:
+  - "private" extended project: "fork" it and add features do not push to public
+  - contribute to public project: same advantages like implementing it 
+
+.. python_static_code_analysis_module_selection_pattern:
+
+Python Static Code Analysis Module Pattern
+==========================================
+
+:Context:
+ - high reliability application
+ - application in the context of safety critical systems (build process)
+ - library implementation
+
+:Problem:
+ - ensuring code quality manually without tool support is impossible
+ - static code quality may influence the reliability (which may not always been
+   tested using unit test, integration test and acceptance test tools)
+ - static code quality influences design related quality attributes like
+   maintainability, etc. (non-functional requirements)
+
+:Forces:
+ - code analysis features
+  - file based configuration (for separate versioning ~ configuration management)
+  - programming "errors"
+  - code style (PEP8)
+ - integration with existing develop infrastructure (ADEs, IDEs, ...)
+ - integration with existing CI infrastructure (integration of report output into documentation or agile "dashboard")
+
+:Solution:
+ Evaluate the currently available python modules regarding the forces.
+ 
+ - pylint (wide range of checks) [http://www.pylint.org/]
+ - PyFlakes (limited checks, no style checking, all python versions supported) [https://pypi.python.org/pypi/pyflakes]
+ - PyChecker (outdated!) [https://pypi.python.org/pypi/PyChecker]
+ - pep8 (only style guide) [https://pypi.python.org/pypi/pep8]
+
+:Resulting context:
+ - run static code analysis on projects per cli
+ - prerequisite to integrate static analysis into CI environment
 
 .. python_build_module_selection_pattern:
 
