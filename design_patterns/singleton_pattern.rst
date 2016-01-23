@@ -6,6 +6,19 @@ Singleton Pattern
 
 Ensures that only one instance of a class may be created.
 
+:Context:
+ - ensure only one instance of a class may be instantiated
+ - e.g. manager class (Phillips 2010, p. 247)
+
+:Implementation example: Python - __new__ class method ensures that only one
+ instance of the class is created (using call "super") and returns the same
+ single instance if "one is created" afterwards
+ (Philipps 2010, section "Singleton implementation").
+
+:Implementation example: Python - A state based parser instantiates a class and
+ assigns it immediatelly afterwards to a module variable (Phillips 2010, section
+ "Module variables can mimic singletons").
+
 :Implementation example: Python - Basic "class" singleton (Zlobin 2013, section
  "A classic singleton").
 
@@ -23,4 +36,7 @@ Borg singleton
 Uses a shared state to ensure that successors of a singleton class are also
 singletons.
 
-:Implementation example: Python - Borg singleton implements a shared resource (to store images) and a set of URLs which are accessed by 2 threads which fetch images of the URLs and stores them (Zlobin 2013, chapter "2. Creating Only One Object with the Singleton Pattern", subchapter "Implementation in Python")
+:Implementation example: Python - Borg singleton implements a shared resource
+ (to store images) and a set of URLs  which are accessed by 2 threads which
+ fetch images of the URLs and stores them (Zlobin 2013, chapter "2. Creating
+ Only One Object with the Singleton Pattern", subchapter "Implementation in Python")

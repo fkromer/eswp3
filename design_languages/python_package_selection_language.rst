@@ -214,3 +214,15 @@ Version Compatibility Package Selection
  - encapsulated differentiations between implementations for different python
    versions (see "Single responsibility principle")
  - major dependence on version compatibility package in use
+
+Command Line Interface Package Selection
+========================================
+
+:Context:
+ - develop application whose functionality shall be accesible over a command line interface
+
+:Solution:
+ - standard library module **argparse**
+
+:Resulting context:
+ - easy creation of command line interface

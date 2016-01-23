@@ -36,6 +36,7 @@ Mayer, Bertrand                     Object-Oriented Software Construction       
 Manolescu, Dragos et al.            Pattern Languages of Program Design 5                                                          Addison Wesley                  2006
 Meszaros, Gerard                    xUnit Test Patterns : Refactoring Test Code                                                    Addison-Wesley          1st     2007
 Osherove, Roy 	                    Beautiful Builds: Growing Readable, Maintainable Automated Build Processes                     Team Agile Publishing   1st     2015
+Phillips, Dusty                     Python 3 Object Oriented Programming: Harness the power of Python 3 objects                    Packt Publishing Ltd.   1st     2010
 Coplien, J. and Schmidt, D.         Pattern Languages of Program Design 1                                                          Addison-Wesley Longman          1995
 Schmidt, Douglas et al.             Pattern Oriented Software Architecture (Vol. 2): Patterns for Concurrent and Networked Objects John Wiley & Sons, Inc.         2000
 Tornhill, Adam                      Patterns in C                                                                                  Leanpub                 agile   2015
