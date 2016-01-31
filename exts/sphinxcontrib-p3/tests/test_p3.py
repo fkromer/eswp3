@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import unittest, sys
+import sys
 sys.path.append('./../sphinxcontrib')
 import p3, sphinx
+
+if sys.version_info < (2, 7):
+    import unittest2 as unittest
+else:
+    import unittest
 
 class Test(unittest.TestCase):
 
