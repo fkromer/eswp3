@@ -1,14 +1,11 @@
-.. python_pattern_language:
+.. python_distribution_language:
 
-=======================
-Python Pattern Language
-=======================
-
+============================
+Python Distribution Language
+============================
 
 Application Distribution
 ========================
-
-:Context:
 
 :Forces:
  - python experience of users
