@@ -1,8 +1,44 @@
-.. _python_in-source_code_documentation_pattern_language:
+﻿.. _python_in-source_code_documentation_pattern_language:
 
 ****************************************************
 Python in-source code documentation pattern language
 ****************************************************
+
+Automated command line interface documentation
+==============================================
+
+:Context:
+ - develop an application with command line interface
+ - maintain an application with command line interface
+ - in-source code documentation is generated with sphinx-doc
+ - in-source code documentation may be generated with sphinx-doc
+
+:Problem:
+ - manual documentation tend to be outdated
+
+:Solution:
+ - [sphinxcontrib.autoprogram](https://pythonhosted.org/sphinxcontrib-autoprogram/)
+
+:Resulting context:
+ - CLI documenation is updated with every sphinx-doc
+
+Automated RESTful HTTP API documenation
+=======================================
+
+:Context:
+ - develop an application with RESTful HTTP application interface
+ - maintain an application with RESTful HTTP application interface
+ - in-source code documentation is generated with sphinx-doc
+ - in-source code documentation may be generated with sphinx-doc
+
+:Problem:
+ - manual documentation tend to be outdated
+
+:Solution:
+ - [sphinxcontrib.httpdomain](https://pythonhosted.org/sphinxcontrib-httpdomain/)
+ - for flask app use [sphinxcontrib.autohttp.flask](https://pythonhosted.org/sphinxcontrib-httpdomain/#module-sphinxcontrib.autohttp.flask)
+ - for bottle app use [sphinxcontrib.autohttp.bottle](https://pythonhosted.org/sphinxcontrib-httpdomain/#module-sphinxcontrib.autohttp.bottle)
+ - for tornado app use [sphinxcontrib.autohttp.tornado](https://pythonhosted.org/sphinxcontrib-httpdomain/#module-sphinxcontrib.autohttp.tornado)
 
 UML diagram documentation pattern
 =================================
