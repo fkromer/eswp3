@@ -48,7 +48,7 @@ Explicite Single Class Import
 :Solution:
  - import with `from <module> import <class>`
  - access with `<instance> = <class>()`
- (Phillips 2010, section **Modules and packages**/page 43)
+   (Phillips 2010, section **Modules and packages**/page 43)
 
 :Resulting Context:
  - good maintainability (you may locate the class in the other class)
@@ -63,7 +63,7 @@ Explicite Renaming Single Class Import
 
 :Solution:
  - import with `from <module> import <class> as <renamed class>`
- (Phillips 2010, section **Modules and packages**/page 44)
+   (Phillips 2010, section **Modules and packages**/page 44)
  - access with `<instance> = <renamed class>()`
 
 :Resulting Context:
