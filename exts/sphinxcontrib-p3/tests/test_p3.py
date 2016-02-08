@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import sys
-sys.path.append('./../sphinxcontrib')
-import p3, sphinx
+import sphinxcontrib.p3 as p3
+import sphinx
 
 if sys.version_info < (2, 7):
     import unittest2 as unittest
