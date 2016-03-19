@@ -8,30 +8,32 @@ Python Exception Handling Language
 
 .. graphviz::
 
-   digraph build_automation_language{
+   digraph python_exception_handling_language{
       // styling
       size="10";
-      
 
       // 1st to 2nd level node transitions
-      eh -> becs;
-      eh -> cec;
+      ehl -> e;
+      e -> becs;
+      e -> cec;
       becs -> egfc;
       becs -> cec;
       cec -> seec -> egfc;
-      cec -> iec -> egfc;
+      cec -> eec -> iec -> egfc;
 
       // nodes
-      eh [label="Exception Handling", href="../design_languages/python_exception_handling.html#exception-handling", target="_top"];
+      ehl [label="Python Exception Handling Language", href="../design_languages/python_exception_handling.html#python-exception-handling-language", target="_top"];
+      e [label="Exception", href="../design_languages/python_exception_handling.html#exception", target="_top"];
       becs [label="Built-in Exception Class Selection", href="../design_languages/python_exception_handling.html#built-in-exception-class-selection", target="_top"];
       cec [label="Customized Exception Class", href="../design_languages/python_exception_handling.html#customized-exception-class", target="_top"];
       seec [label="Self Explaining Exception Class", href="../design_languages/python_exception_handling.html#self-explaining-exception-class", target="_top"];
       iec [label="Intelligent Exception Class", href="../design_languages/python_exception_handling.html#intelligent-exception-class", target="_top"];
+      eec [label="Enhanced Exception Class", href="../design_languages/python_exception_handling.html#enhanced-exception-class", target="_top"];
       egfc [label="Exception Guided Flow Control", href="../design_languages/python_exception_handling.html#exception-guided-flow-control", target="_top"];
    }
 
-Exception Handling
-==================
+Exception
+=========
 
 :Context:
  - develop new application
@@ -45,7 +47,7 @@ Exception Handling
  - handling of error conditions without using input parameter checks
 
 :Solution:
- - use the built-in exception handling features (try:, except:, etc.)
+ - create instances of exception classes in exception conditions
 
 :Resulting context:
  - increased debug-ability
@@ -87,10 +89,8 @@ Customized Exception Class
 Self-Explaining Exception Class
 ===============================
 
-:Context:
- 
 :Problem:
- -
+ - built-in exceptions do not suite the exception context
 
 :Solution:
  - create error class which inherit from Exception or BaseException
@@ -103,6 +103,20 @@ Self-Explaining Exception Class
 :Resulting context:
  - exception context is made obvious by exception class name
  - no implementation and test overhead
+
+Enhanced Exception Class
+========================
+
+:Problem:
+ - need to pass additional information in form of values instead of string
+
+:Solution:
+ - create class with attributes which are set e.g. with __init__(self, <attributes>)
+
+:Resulting context:
+ - increased cross-class/module communication capabilities
+ - client code may acces exception class attributes -> enhanced exception guided
+   flow control
 
 Intelligent Exception Class
 ===========================
@@ -126,7 +140,8 @@ Exception Guided Flow Control
 =============================
 
 :Context:
- 
+ - you raise one or more exceptions in server code
+ - client code needs to act dependent on exception occured
 
 :Problem:
  - flow control of application needs to address raised exceptions
@@ -134,5 +149,11 @@ Exception Guided Flow Control
 :Solution:
  - use the 
 
+:Implementation example:
+ Exception communication and exception guided flow control of classes addressing
+ authentication and authorization of an web application (Philipps 2010,
+ section **Case study**/page 112).
+
 :Resulting Context:
- 
+ - no need to explicitly check input parameters
+ - inter-class communication of exception related information
