@@ -17,6 +17,7 @@ Broekman, Bart und Notenboom, Edwin Testing Embedded Software                   
 Buschmann, Frank et al.             Pattern-Oriented Software Architecture (Vol. 1): A System of Patterns                          John Wiley & Sons Ltd.  7th     2001
 Carnegie, Dale                      How to Win Friends & Influence People                                                          Simon and Schuster      20th    2010
 Crispin, Lisa and Gregory, Janet    Agile Testing: A Practical Guide For Testers and Agile Teams                                   Addison-Wesley          9th     2013
+Douglass, Bruce Powel               Real-Time UML: Developing Efficient Objects for Embedded Systems                                  Addison-Wesley          1th     1998
 Douglass, Bruce Powel               Real-Time Design Patterns: Robust Scalable Architecture for Real-Time Systems                  Elsevier                1th     2002
 Douglass, Bruce Powel               Design Patterns for Embedded Systems in C: An Embedded Software Engineering Toolkit            Elsevier                1th     2011
 Fowler, Martin et al.               Refactoring: Improving the Design of Existing Code                                             Addison-Wesley                  1999
