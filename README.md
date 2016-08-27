@@ -4,7 +4,9 @@
 
 The [ESWP³](http://eswp3.org/) is about summarizing, referencing, structuring and relating principles, procedures (as sequences of patterns in a pattern languages) and patterns in the context of embedded software engineering.
 
-Almost 600 happy readers can´t be wrong.
+Over 600 happy readers all over the planet can´t be wrong.
+
+![geographical user distribution](https://github.com/fkromer/eswp3/blob/master/geographical_user_distribution.png)
 
 **ESWP3** uses the python module **p3** (beta status) as sub project (eswp3/p3/). **p3** is a graphical pattern language processor. Visit the [project wiki](https://github.com/fkromer/eswp3/wiki) for further information.
 
