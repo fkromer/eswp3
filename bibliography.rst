@@ -36,6 +36,7 @@ Lott, Steven F.                     Mastering Object Oriented Python            
 Martin, Robert C. et al.            Pattern Languages of Program Design 3                                                          Addison Wesley                  1997
 Mayer, Bertrand                     Object-Oriented Software Construction                                                          Prentice Hall                   1988
 Manolescu, Dragos et al.            Pattern Languages of Program Design 5                                                          Addison Wesley                  2006
+Meadows, Donella H.                 Thinking in Systems: A Primer                                                                  Chelsea Green Publ.     1st     2008
 Meszaros, Gerard                    xUnit Test Patterns : Refactoring Test Code                                                    Addison-Wesley          1st     2007
 Osherove, Roy 	                    Beautiful Builds: Growing Readable, Maintainable Automated Build Processes                     Team Agile Publishing   1st     2015
 Phillips, Dusty                     Python 3 Object Oriented Programming: Harness the power of Python 3 objects                    Packt Publishing Ltd.   1st     2010
