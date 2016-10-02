@@ -4,7 +4,7 @@
 
 The [ESWP³](http://eswp3.org/) is about summarizing, referencing, structuring and relating principles, procedures (as sequences of patterns in a pattern languages) and patterns in the context of embedded software engineering.
 
-Over 600 happy readers all over the planet can´t be wrong.
+Almost 700 happy readers all over the planet can´t be wrong.
 
 ![geographical user distribution](https://github.com/fkromer/eswp3/blob/master/geographical_user_distribution.png)
 
