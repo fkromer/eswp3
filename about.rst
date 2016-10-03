@@ -8,65 +8,6 @@
 Why principles, pattern languages and patterns?
 ===============================================
 
-The short version
-=================
-
-You need to understand this section deeply to profit from this website the most!
-
-------------------------------------------------------------------------
-"Problem solution using pattern languages and patterns" pattern language
-------------------------------------------------------------------------
-
-:Context:
- You have a problem in a specific situation. You may but must not know about
- the existence of pattern languages and patterns.
-
-:Problem:
- You do not know how to solve this problem. You could have an idea about a
- "good" solution but you are not sure if there exist better ones. If you know
- about the existence of pattern languages and patterns you do not know which
- patterns can be applied often.
-
-:Solution:
- - Apply the "Pattern language and pattern reference mining" pattern (search
-   pattern languages and patterns which "fit" to your current **context** and
-   **problem**, collect and document every **context**/**problem**/
-   **resulting context**, collect references to **solution**/**forces**/
-   **examples** and other relevant meta-data) -> THIS WEBSITE IS AN
-   IMPLEMENTATION OF THIS PATTERN FOR THE CONTEXT EMBEDDED SW DEVELOPMENT.
- - Apply "Find fitting pattern" pattern
-
-  - If you found a fitting pattern then apply the identified pattern. ...
-  - If you did not found a fitting pattern apply the "Find fitting pattern
-    language" pattern. ...
-
- - Apply a pattern ("little" problem) which gives advice to solve your problem
-   in your current situation. If the problem is still not managed in a pattern
-   language (problem "too big"
-   for single pattern) 
-
-:Resulting Context:
- You know about the existence of pattern languages and patterns. You know that
- they can help you to solve your situation specific problems.
-
-------------------------------
-"Find fitting pattern" pattern
-------------------------------
-
-:Context:
- You have a little problem or a resulting remaining problem after applying
- another pattern within the pattern language in use.
-
-:Problem:
- You do not know how to select an appropriate pattern.
-
-:Solution:
- Check if your **context** and **problem** does fit to one of the patterns
- from 
-
-The long version
-================
-
 Lets start with the most general definition of the term "pattern language":
 
  "A pattern language is (at least) a collection of patterns that work together
@@ -112,6 +53,7 @@ patterns with these basic concepts is to live a more relaxed life and beeing
 able to spend more and enjoyable time with the people i love**. This makes the
 pattern theory as a whole very practicable for me.
 
+======================
 A "real world" example
 ======================
 
@@ -132,9 +74,8 @@ very complex to structure several of them in a pattern language. Even if the
 pattern languages scope is just for a very limited context (see e.g.
 **Unit Test Automation Pattern Language**).
 
----------------------------------
 Grocery Shopping Pattern Language
----------------------------------
+=================================
 
 :Context:
  You need to buy some grocery.
