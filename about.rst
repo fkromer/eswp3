@@ -96,6 +96,7 @@ Grocery Shopping Pattern Language
  have much time, the store has open long enough, you want to spend much time
  
  - effective means fast: **Fast Shopper Pattern**
+  - **Anti-Cyclic Shopper Pattern**
   - **Bulls-Eye Shopper Pattern**
   - **Scanning Shopper Pattern**
  - effective means relaxed: **Vacation Shopper Pattern**
@@ -119,6 +120,20 @@ Fast Shopper Pattern
 
 :Resulting context:
  You can apply either the "Bulls-Eye Shopper Pattern" or the "Scanning Shopper Pattern".
+
+---------------------------
+Anti-Cyclic Shopper Pattern
+---------------------------
+
+:Context:
+ You are not forced to go shopping in a predefined time frame.
+
+:Solution:
+ Go shopping when nobody else does.
+ 
+:Resulting context:
+ You are more relaxed because you avoid "running the gauntlet" (other shoppers).
+ You do not spend time in the waiting line for paying.
 
 -------------------------
 Bulls-Eye Shopper Pattern
