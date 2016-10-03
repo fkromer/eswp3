@@ -14,6 +14,14 @@ As "(P)atterns are only meaningful as part of a Pattern Language(.)" (Bergin
 2013, pos. 74) this project tries also to "make" relations between different
 pattern languages and the higher-level principles "visible".
 
+----
+
+MAY I HAVE YOUR ATTENTION PLEASE:
+
+I am playing around with some generic principle, pattern language and pattern mining project in my spare time here https://github.com/fkromer/p3 . Feel free to contribute and to join the journey of making pattern management public and as easy as possible.
+
+----
+
 Contents:
 
 .. toctree::
