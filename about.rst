@@ -85,7 +85,6 @@ Grocery Shopping Pattern Language
  effective" as possible.
 
 :Forces:
-
  - time you can spend
  - time you want spend
  - actual time -> time frame the shop is open
@@ -96,63 +95,76 @@ Grocery Shopping Pattern Language
  on of the following **patterns in the context of buying grocery**. If you
  have much time, the store has open long enough, you want to spend much time
  
- - effective means fast: **Fast Shopper Pattern Language**
+ - effective means fast: **Fast Shopper Pattern**
+  - **Bulls-Eye Shopper Pattern**
+  - **Scanning Shopper Pattern**
  - effective means relaxed: **Vacation Shopper Pattern**
 
 :Resulting context:
  You have bought all grocery you required. Depending on the applyed pattern
  you eather 
 
------------------------------
-Fast Shopper Pattern Language
------------------------------
+--------------------
+Fast Shopper Pattern
+--------------------
 
 :Context:
- ?
+ You have little time and you may not spend more time than available.
 
 :Problem:
- ?
-
-:Forces:
- ?
+ You run out of time while shopping and you do not get all grocery you need.
 
 :Solution:
- ?
+ Get your grocery as fast as possible.
 
 :Resulting context:
- ?
+ You can apply either the "Bulls-Eye Shopper Pattern" or the "Scanning Shopper Pattern".
+
+-------------------------
+Bulls-Eye Shopper Pattern
+-------------------------
+
+:Context:
+ You do know the store floor plan (e.g. from previous shopping tours) OR
+ the grocery store areas are labeled (e.g. "cereals").
+
+:Solution:
+ - Think about where the grocery is located.
+ - Think about a sequence of grocery which leads to an as short as possible walking route.
+ - Go straight to the areas where your grocery is located by walking along your shopping tour specific walking pattern (pay attention! There are no walking patterns because the grocery shopping list tends to vary between single shopping tours.).
+
+:Resulting context:
+ You got your grocery as fast as possible. The probability to miss grocery is little.
+ (Really!? Or is it better to use the "Grocery Delivery Pattern" instead!?)
 
 ------------------------
 Scanning Shopper Pattern
 ------------------------
 
 :Context:
- ?
-
-:Problem:
- ?
-
-:Forces:
- ?
+ You do not know the store floor plan (e.g. from previous shopping tours) AND
+ the grocery store areas are not labeled (e.g. "cereals").
 
 :Solution:
- ?
+ - Get an overview of the store floor plan.
+ - Walk along an as short as possible walking path (e.g. row-wise from right to left).
+ - Scan all the grocery.
+ - Get the grocery if you find
 
 :Resulting context:
- ?
+ You get the grocery nearly as fast as with the "Bulls-Eye Shopper Pattern".
+ But you probably do not get all grocery because the store does not offer all of it.
 
 --------------------------------
 Vacation Grocery Shopper Pattern
 --------------------------------
 
 :Context:
- You are on vacation and need to buy some grocery.
-
-:Problem:
- You do not like shopping (in case you are)
+ You are on vacation and have much time.
 
 :Solution:
- ?
+ Get the grocery as relaxed as possible:
+ do not hurry, ignore people which apply the "Fast Shopper Pattern" or the "Bulls-Eye Shopper Pattern".
 
 :Resulting context:
  You spend more time than required to get your grocery. But you are relaxed.
