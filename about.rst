@@ -89,10 +89,11 @@ A language suggests a sequential application of patterns dependent on
 
 addresses from large-scale to small-scale patterns.
 
-- not like any other wiki
+- not like other knowledge management systems (like https://www.wikipedia.org/)
 
  - despite of fact that wikis do relay on the same theory
- - focus on referencing, not on content
+ - focus on problem, not on content
+ - focus on problem related referencing, not on content related referencing
 
 - structuring of single patterns
 
@@ -101,8 +102,6 @@ addresses from large-scale to small-scale patterns.
  - effective
 
 Structuring single patterns and relating patterns with each other using pattern languages is powerful.
-- right time
-- 
 
 Pattern languages and patterns are part of the "pattern theory" (Leitner
 2015, section "The concept of the pattern") developed by the architect,
