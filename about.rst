@@ -24,9 +24,9 @@ of these.
 
 A language suggests a sequential application of patterns dependent on
 
- - the situation before applying a pattern
- - the problem before applying a pattern and
- - the forces which influence which pattern of alternatives are influenced by
+- the situation before applying a pattern
+- the problem before applying a pattern and
+- the forces which influence which pattern of alternatives are influenced by
 
 addresses from large-scale to small-scale patterns.
 
@@ -131,7 +131,7 @@ Bulls-Eye Shopper Pattern
 :Solution:
  - Think about where the grocery is located.
  - Think about a sequence of grocery which leads to an as short as possible walking route.
- - Go straight to the areas where your grocery is located by walking along your shopping tour specific walking pattern (pay attention! There are no walking patterns because the grocery shopping list tends to vary between single shopping tours.).
+ - Go straight to the areas where your grocery is located by walking along your shopping tour specific walking pattern.
 
 :Resulting context:
  You got your grocery as fast as possible. The probability to miss grocery is little.
