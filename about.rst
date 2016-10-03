@@ -42,7 +42,11 @@ addresses from large-scale to small-scale patterns.
  - conformance with problem solution methodology
  - effective
 
-Structuring single patterns and relating patterns with each other using pattern languages is powerful.
+In many cases patterns are pattern lanugages itself.
+The identification of "Child Patterns" and its meta-data may evolve a
+pattern to a pattern language.
+
+Principles have to be considered as forces for patterns.
 
 Pattern languages and patterns are part of the "pattern theory" (Leitner
 2015, section "The concept of the pattern") developed by the architect,
