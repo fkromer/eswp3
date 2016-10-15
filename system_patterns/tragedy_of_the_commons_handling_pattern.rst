@@ -4,6 +4,9 @@
 Tragedy Of The Commons Handling Pattern
 ***************************************
 
+:Category:
+ system trap handling pattern
+
 :Problem:
  When there is a commonly shared resoure, every user benefits directly from its use, but shares the costs
  of its abuse with everyone else. Therefore, there is very weak feedback from the condition of the resource
