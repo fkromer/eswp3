@@ -219,6 +219,6 @@ To make the project as valuable as possible the structuring of the content and
 the content itself has been optimized related to "pattern languages" and
 "patterns". To reflect the evolution of the project regarding the
 content and its intend the project has been renamed from ESWKMS (Embedded
-Software Knowledge Management System) to ESWP³ (Embedded Software Principles,
+Software Knowledge Management System) to ESWP3 (Embedded Software Principles,
 Procedures and Patterns). The content is published with readthedocs.org on
 http://eswp3.org. Feel free to contribute on https://github.com/fkromer/eswp3.
