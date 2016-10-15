@@ -4,6 +4,9 @@
 Escalation Handling Pattern
 ***************************
 
+:Category:
+ system trap handling pattern
+
 :Problem:
  When the state of one stock is determined by trying to surpass the state of another stock - and vice versa -
  then there is a reinforcing feedback loop carrying the system into an arms race, a wealth race, a smear campaign,
