@@ -17,6 +17,7 @@ explicit meta-data **Problem** of specifc patterns instead.
    design_patterns
    unit_test_patterns
    tool_evaluation_patterns
+   system_patterns
 
 About the meta-data
 ===================
