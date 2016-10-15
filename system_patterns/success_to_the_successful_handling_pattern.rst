@@ -4,6 +4,9 @@
 Success To The Successful Handling Pattern
 ******************************************
 
+:Category:
+ system trap handling pattern
+
 :Problem:
  If the winners of a competition are systematically rewarded with the means to in again, a reinforcing
  feedback loop is created by which, if it is allowed to proceed unihibited, the winners eventually take all,
