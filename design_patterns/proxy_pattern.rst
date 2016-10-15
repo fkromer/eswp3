@@ -6,7 +6,7 @@ Proxy Pattern
 
 Standardization of component interface for better maintainability.
 
-:Implementation example: C++ - An interface for graphical objects (proxy) may be used by the application (client) to access the implementation of a image class (Gamma et al. 1995, chapter „Proxy“).
+:Implementation example: C++ - An interface for graphical objects (proxy) may be used by the application (client) to access the implementation of a image class (Gamma et al. 1995, chapter "Proxy").
 
 Hardware Proxy
 --------------

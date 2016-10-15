@@ -5,7 +5,7 @@ Smart Data Pattern
 ******************
 
 Idiomatic pattern implements self-checking data types to satisfy defensive
-programming. Adds behavior to the data to ensure that the data’s preconditions
+programming. Adds behavior to the data to ensure that the data's preconditions
 and constraints are adhered to (Douglas 2011, page 359).
 
 :Context:

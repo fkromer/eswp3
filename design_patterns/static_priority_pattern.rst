@@ -10,7 +10,7 @@ Task scheduling using priorities.
  * simplicity (Douglass 2002, p. 163)
  * stability in sense of predictability of failing tasks in an overload
    situation (Douglass 2002, p. 164)
- * optimality, you can’t do better with other scheduling strategies
+ * optimality, you can't do better with other scheduling strategies
    (Douglass 2002, p. 164)
  * scale-ability for large amounts of tasks (Douglass 2002, p. 163)
  * analyze-ability for schedule-ability e.g. with the standard rate monotonic
