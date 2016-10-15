@@ -1,4 +1,4 @@
-﻿.. _magic_triangle:
+ï»¿.. _magic_triangle:
 
 ********************************************
 Magic Triangle (Project Management Triangle)

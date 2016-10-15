@@ -1,4 +1,4 @@
-﻿.. _pareto:
+ï»¿.. _pareto:
 
 ******
 Pareto
