@@ -427,8 +427,8 @@ Test Discovery
  test suite automatically (Meszaros 2007, page 393).
 
 Test Double
- We replace a component on which the SUT depends with a “test-specific
- equivalent” (Meszaros 2007, page 522).
+ We replace a component on which the SUT depends with a "test-specific
+ equivalent" (Meszaros 2007, page 522).
 
 Test Enumeration
  The test automater manually writes the code that enumerates all tests that
@@ -507,4 +507,3 @@ Transaction Rollback Teardown
 Unfinished Test Assertion
  We ensure that incomplete tests fail by executing an assertion that is
  guaranteed to fail (Meszaros 2007, page 494).
-
