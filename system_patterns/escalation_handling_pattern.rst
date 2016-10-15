@@ -11,7 +11,7 @@ Escalation Handling Pattern
  When the state of one stock is determined by trying to surpass the state of another stock - and vice versa -
  then there is a reinforcing feedback loop carrying the system into an arms race, a wealth race, a smear campaign,
  escalating loudness, escalating violence. The escalation is exponential and can lead to extremes surprisingly
- quickly. If nothing is done, the spiral will be stopped by someone´s collapse - because exponential growth
+ quickly. If nothing is done, the spiral will be stopped by someone's collapse - because exponential growth
  cannot go on forever.
 
 :Situation:

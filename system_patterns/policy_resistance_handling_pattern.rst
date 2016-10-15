@@ -9,7 +9,7 @@ Policy Resistance Handling Pattern
 
 :Problem:
  When various actors try to pull a system state toward various goals, the result can be policy resistance.
- Any new policy, especially if it´s effective, just pulls the system state farther from the goals of other
+ Any new policy, especially if it's effective, just pulls the system state farther from the goals of other
  actors and produces additional resistance, with a result that no one likes, but that everyone expends
  considerable effort in maintaining.
 
