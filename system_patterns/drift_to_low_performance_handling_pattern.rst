@@ -4,6 +4,9 @@
 Drift To Low Performance Handling Pattern
 *****************************************
 
+:Category:
+ system trap handling pattern
+
 :Problem:
  Allowing performance standards to be influenced by past performance, especially if there is a negative
  bias in perceiving past performance, sets up a reinforcing feedback loop of eroding goals that sets a
