@@ -23,18 +23,6 @@ Makes two incompatible interfaces compatible.
  - the adapter compontent needs to implement the expected interface and maps the
    existing interface to it
 
-:Implementation example:
- Python - Abstract but running example of the Adapter Pattern implemented with
- the internal dictionary of a class instead of the traditional implementation
- based on inheritance (Kasampalis 2015, chapter "4. The Adapter pattern",
- subchapter "Implementation").
-
-:Implementation example:
- Python - Existing class does calculate a persons age dependent on the birthday
- date as string input. Adapter class uses the existing class but provides an
- interface which expects the birthday date in the datetime format (Phillips 2010,
- section "Adapter pattern" / p. 257).
-
 :Resulting context:
  - preexisting code can be used with a new interface
  - implement the required functionality with less resources consumption (manpower, time, money)
