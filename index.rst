@@ -18,7 +18,15 @@ pattern languages and the higher-level principles "visible".
 
 MAY I HAVE YOUR ATTENTION PLEASE:
 
-I am playing around with some generic principle, pattern language and pattern mining project in my spare time here https://github.com/fkromer/p3 . Feel free to contribute and to join the journey of making pattern management public and as easy as possible.
+1) I setup a new website which lists and references resources to learn about
+embedded system development on http://awesome-embedded-systems.org.
+Feel free to visit and contribute to the project on GitHub by clicking on the
+"Fork me on GitHub" in the upper right corner of the main page.
+
+2) I am playing around with some generic principle, pattern language and pattern
+mining project in my spare time here https://github.com/fkromer/p3 . Feel free
+to contribute and to join the journey of making pattern management public and
+as easy as possible.
 
 ----
 
