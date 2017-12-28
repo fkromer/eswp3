@@ -2,7 +2,7 @@
 
 ## About
 
-The [ESWP³](http://eswp3.org/) is about summarizing, referencing, structuring and relating principles, procedures (as sequences of patterns in a pattern languages) and patterns in the context of embedded software engineering.
+The [ESWP³](http://eswp3.readthedocs.io) is about summarizing, referencing, structuring and relating principles, procedures (as sequences of patterns in a pattern languages) and patterns in the context of embedded software engineering.
 
 Almost 700 happy readers all over the planet can´t be wrong.
 
